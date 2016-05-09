@@ -90,7 +90,7 @@ module.exports = function (menu) {
     }
 
     function filterByNodeDegree(nodes, properties, minDegree) {
-        return filterTools.filterNodesAndTidy(nodes, properties, hasRequiredDegree(minDegree));
+        return filterTools.filterNodesAndTidy(nodes, properties, hasRequiredLevel(minDegree));
     }
 
     function hasRequiredLevel(minDegree) {
