@@ -178,6 +178,5 @@ module.exports = (function () {
 		return this.labelForCurrentLanguage() + " (" + this.type() + ")";
 	};
 
-
 	return Base;
 }());

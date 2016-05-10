@@ -88,6 +88,7 @@ module.exports = function (graph) {
 			} else if (b === webvowl.util.constants().LANG_UNDEFINED) {
 				return 1;
 			}
+     
 			return a.localeCompare(b);
 		});
 
@@ -129,7 +130,7 @@ module.exports = function (graph) {
 
 	function updateGraphInformation() {
 		var title = languageTools.textInLanguage(ontologyInfo.title, graph.language());
-		d3.select("#title").text(title || "No title available");
+		d3.select("#title").text(title || "Mica ontology");
 		d3.select("#about").attr("href", ontologyInfo.iri).attr("target", "_blank").text(ontologyInfo.iri);
 		d3.select("#version").text(ontologyInfo.version || "--");
 		var authors = ontologyInfo.author;
@@ -296,7 +297,7 @@ module.exports = function (graph) {
 
 	function setIriLabel(element, name, iri) {
 		var parent = d3.select(element.node().parentNode);
-
+                
 		if (name) {
 			element.selectAll("*").remove();
 			appendIriLabel(element, name, iri);

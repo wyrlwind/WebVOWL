@@ -227,7 +227,6 @@ module.exports = function (graph) {
 		rawNodes.forEach(function (node) {
 			maxIndividualCount = Math.max(maxIndividualCount, node.individuals().length);
 			node.visible(true);
-
 		});
 
 		rawNodes.forEach(function (node) {

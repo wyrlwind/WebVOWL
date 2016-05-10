@@ -6,7 +6,7 @@ var elementTools = require("./util/elementTools")();
 
 module.exports = function (graphContainerSelector) {
 	var graph = {},
-		CARDINALITY_HDISTANCE = 20,
+		CARDINALITY_HDISTANCE = 30,
 		CARDINALITY_VDISTANCE = 10,
 		curveFunction = d3.svg.line()
 			.x(function (d) {

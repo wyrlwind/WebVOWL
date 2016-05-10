@@ -88,7 +88,7 @@ module.exports = function (graph) {
 		degreeSlider = sliderContainer.append("input")
 			.attr("id", "nodeDegreeDistanceSlider")
 			.attr("type", "range")
-			.attr("min", 0)
+			.attr("min", 1)
 			.attr("step", 1);
 
 		sliderContainer.append("label")

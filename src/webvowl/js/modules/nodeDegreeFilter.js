@@ -93,9 +93,23 @@ module.exports = function (menu) {
         return filterTools.filterNodesAndTidy(nodes, properties, hasRequiredLevel(minDegree));
     }
 
+    //class name as the following format "name--level" ex : c125--5
+    function getLevel(node) {
+        var res = node.iri().split("--");
+        length = res.length;
+        if (length > 1) {
+            return parseInt(res[length-1]);
+        } else {
+            return -1;
+        }
+
+    }
+
+    //if class name has <name--level> format then nodes are displayed by level, otherwise hasRequiredDegree is called
     function hasRequiredLevel(minDegree) {
         return function (node) {
-            return filterOutDatatypes(node.links()).length >= minDegree;
+            level = getLevel(node);
+            return level > 0 ? level <= minDegree : hasRequiredDegree(minDegree);
         };
     }
 

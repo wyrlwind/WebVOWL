@@ -17,7 +17,7 @@ module.exports = (function () {
 			cleanedProperties = [];
 
 		nodes.forEach(function (node) {
-			if (shouldKeepNode(node)) {
+                        if (shouldKeepNode(node)) {
 				cleanedNodes.push(node);
 			} else {
 				removedNodes.add(node);
