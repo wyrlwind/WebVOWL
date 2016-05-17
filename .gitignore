@@ -13,4 +13,4 @@ node_modules
 deploy/**
 !deploy/.htaccess
 webvowl*.zip
-/nbproject/private/
+nbproject/private/*
