@@ -1,0 +1,712 @@
+{
+  "_comment" : "Created with OWL2VOWL (version @project.version@), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://www.mica.eu/ontologies/thing", "http://www.w3.org/2001/XMLSchema" ],
+    "iri" : "http://www.mica.eu/ontologies/thing",
+    "version" : "1.0",
+    "labels" : {
+      "en" : "label"
+    },
+    "comments" : {
+      "en" : "write comment here"
+    },
+    "other" : {
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "1.0",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "metrics" : {
+    "classCount" : 29,
+    "datatypeCount" : 3,
+    "objectPropertyCount" : 26,
+    "datatypePropertyCount" : 0,
+    "propertyCount" : 26,
+    "nodeCount" : 32,
+    "individualCount" : 0
+  },
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.mica.eu/ontologies/thing#c28--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c28--2",
+      "en" : "InfographicsAndOther"
+    },
+    "comment" : {
+      "en" : "Infographics and other media (e.g. videos)"
+    },
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c0--1",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c0--1",
+      "en" : "GeneralDescriptiveInformation"
+    },
+    "subClasses" : [ "3", "4", "5", "6" ],
+    "comment" : {
+      "en" : "General descriptive information"
+    },
+    "id" : "2"
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c18--1",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c18--1",
+      "en" : "SpatialData"
+    },
+    "subClasses" : [ "8", "9", "10", "11" ],
+    "comment" : {
+      "en" : "Spatial data "
+    },
+    "id" : "7"
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c11--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c11--3",
+      "en" : "TradeAssociation"
+    },
+    "comment" : {
+      "en" : "Trade association"
+    },
+    "id" : "12",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c8--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c8--3",
+      "en" : "Company"
+    },
+    "comment" : {
+      "en" : "Company"
+    },
+    "id" : "13",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c4--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c4--3",
+      "en" : "LobbyingGroup"
+    },
+    "comment" : {
+      "en" : "Lobbying group"
+    },
+    "id" : "14",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c24--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c24--2",
+      "en" : "Electronic(e.g.Databases)"
+    },
+    "comment" : {
+      "en" : "Electronic (e.g. databases)"
+    },
+    "id" : "16",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c20--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c20--2",
+      "en" : "PaperMaps"
+    },
+    "comment" : {
+      "en" : "Paper maps "
+    },
+    "id" : "10",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c27--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c27--2",
+      "en" : "MetadataOnStatistical"
+    },
+    "comment" : {
+      "en" : "Metadata on statistical data"
+    },
+    "id" : "22",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c17--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c17--3",
+      "en" : "Other(e.g.General"
+    },
+    "comment" : {
+      "en" : "Other (e.g. General press)"
+    },
+    "id" : "25",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c12--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c12--3",
+      "en" : "Other"
+    },
+    "comment" : {
+      "en" : "Other"
+    },
+    "id" : "26",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c7--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c7--2",
+      "en" : "Report"
+    },
+    "subClasses" : [ "27", "13", "28", "26", "12" ],
+    "comment" : {
+      "en" : "Report"
+    },
+    "id" : "3",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c3--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c3--3",
+      "en" : "GovernmentOrganisation"
+    },
+    "comment" : {
+      "en" : "Government organisation"
+    },
+    "id" : "31",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c23--1",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c23--1",
+      "en" : "StatisticalData"
+    },
+    "subClasses" : [ "19", "24", "22", "0", "16" ],
+    "comment" : {
+      "en" : "Statistical data "
+    },
+    "id" : "1"
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c26--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c26--2",
+      "en" : "ReportsWithStatistical"
+    },
+    "comment" : {
+      "en" : "Reports with statistical data"
+    },
+    "id" : "19",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c2--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c2--3",
+      "en" : "Company"
+    },
+    "comment" : {
+      "en" : "Company"
+    },
+    "id" : "41",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c16--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c16--3",
+      "en" : "SpecialistMagazines"
+    },
+    "comment" : {
+      "en" : "Specialist magazines"
+    },
+    "id" : "34",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c13--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c13--2",
+      "en" : "Paper"
+    },
+    "comment" : {
+      "en" : "Paper"
+    },
+    "id" : "6",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c6--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c6--3",
+      "en" : "Other(e.g.Wikipedia)"
+    },
+    "comment" : {
+      "en" : "Other (e.g. Wikipedia)"
+    },
+    "id" : "50",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c22--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c22--2",
+      "en" : "MetadataOnSpatial"
+    },
+    "comment" : {
+      "en" : "Metadata on spatial data"
+    },
+    "id" : "9",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c25--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c25--2",
+      "en" : "PaperFormatStatistical"
+    },
+    "comment" : {
+      "en" : "Paper format statistical data"
+    },
+    "id" : "24",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c1--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c1--2",
+      "en" : "Website"
+    },
+    "subClasses" : [ "50", "52", "14", "31", "41" ],
+    "comment" : {
+      "en" : "Website"
+    },
+    "id" : "5",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c10--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c10--3",
+      "en" : "LobbyingGroup"
+    },
+    "comment" : {
+      "en" : "Lobbying group"
+    },
+    "id" : "28",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c19--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c19--2",
+      "en" : "Electronic(e.g.Web"
+    },
+    "comment" : {
+      "en" : "Electronic (e.g. web portals)"
+    },
+    "id" : "8",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c15--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c15--3",
+      "en" : "Company"
+    },
+    "comment" : {
+      "en" : "Company"
+    },
+    "id" : "38",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c14--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c14--2",
+      "en" : "MagazineArticle"
+    },
+    "subClasses" : [ "25", "34", "38" ],
+    "comment" : {
+      "en" : "Magazine article"
+    },
+    "id" : "4",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c9--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c9--3",
+      "en" : "GovernmentOrganisation"
+    },
+    "comment" : {
+      "en" : "Government organisation"
+    },
+    "id" : "27",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c5--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c5--3",
+      "en" : "TradeAssociation"
+    },
+    "comment" : {
+      "en" : "Trade association"
+    },
+    "id" : "52",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c21--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c21--2",
+      "en" : "SatelliteOrAerial"
+    },
+    "comment" : {
+      "en" : "satellite or aerial imagery"
+    },
+    "id" : "11",
+    "superClasses" : [ "7" ]
+  } ],
+  "property" : [ {
+    "id" : "15",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "18",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "21",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "37",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "43",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "44",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "46",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "47",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "49",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "53",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "1",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "15"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "17"
+  }, {
+    "range" : "1",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "18"
+  }, {
+    "range" : "3",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "20"
+  }, {
+    "range" : "1",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "21"
+  }, {
+    "range" : "1",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "23"
+  }, {
+    "range" : "3",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "29"
+  }, {
+    "range" : "3",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "30"
+  }, {
+    "range" : "3",
+    "domain" : "26",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "32"
+  }, {
+    "range" : "4",
+    "domain" : "34",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "33"
+  }, {
+    "range" : "4",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "35"
+  }, {
+    "range" : "3",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "36"
+  }, {
+    "range" : "4",
+    "domain" : "38",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "37"
+  }, {
+    "range" : "5",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "39"
+  }, {
+    "range" : "5",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "40"
+  }, {
+    "range" : "5",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "42"
+  }, {
+    "range" : "2",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "43"
+  }, {
+    "range" : "2",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "44"
+  }, {
+    "range" : "7",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "45"
+  }, {
+    "range" : "7",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "46"
+  }, {
+    "range" : "7",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "47"
+  }, {
+    "range" : "7",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "48"
+  }, {
+    "range" : "5",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "49"
+  }, {
+    "range" : "5",
+    "domain" : "52",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "51"
+  }, {
+    "range" : "2",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "53"
+  }, {
+    "range" : "2",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "54"
+  } ]
+}

@@ -1,0 +1,1931 @@
+{
+  "_comment" : "Created with OWL2VOWL (version @project.version@), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://www.mica.eu/ontologies/thing", "http://www.w3.org/2001/XMLSchema" ],
+    "iri" : "http://www.mica.eu/ontologies/thing",
+    "version" : "1.0",
+    "labels" : {
+      "en" : "label"
+    },
+    "comments" : {
+      "en" : "write comment here"
+    },
+    "other" : {
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "1.0",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "metrics" : {
+    "classCount" : 79,
+    "datatypeCount" : 3,
+    "objectPropertyCount" : 77,
+    "datatypePropertyCount" : 0,
+    "propertyCount" : 77,
+    "nodeCount" : 82,
+    "individualCount" : 0
+  },
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "71",
+    "type" : "owl:Class"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "72",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "59",
+    "type" : "owl:Class"
+  }, {
+    "id" : "85",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "95",
+    "type" : "owl:Class"
+  }, {
+    "id" : "97",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "101",
+    "type" : "owl:Class"
+  }, {
+    "id" : "82",
+    "type" : "owl:Class"
+  }, {
+    "id" : "102",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "107",
+    "type" : "owl:Class"
+  }, {
+    "id" : "111",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "87",
+    "type" : "owl:Class"
+  }, {
+    "id" : "96",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "99",
+    "type" : "owl:Class"
+  }, {
+    "id" : "118",
+    "type" : "owl:Class"
+  }, {
+    "id" : "81",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "108",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "131",
+    "type" : "owl:Class"
+  }, {
+    "id" : "120",
+    "type" : "owl:Class"
+  }, {
+    "id" : "80",
+    "type" : "owl:Class"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "115",
+    "type" : "owl:Class"
+  }, {
+    "id" : "136",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "88",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "94",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "78",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "100",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "91",
+    "type" : "owl:Class"
+  }, {
+    "id" : "121",
+    "type" : "owl:Class"
+  }, {
+    "id" : "125",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
+    "id" : "98",
+    "type" : "owl:Class"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "89",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.mica.eu/ontologies/thing#c28--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c28--4",
+      "en" : "Cooking"
+    },
+    "comment" : {
+      "en" : "Cooking"
+    },
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c72--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c72--2",
+      "en" : "Transport"
+    },
+    "comment" : {
+      "en" : "Transport"
+    },
+    "id" : "5",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c34--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c34--4",
+      "en" : "Dryers"
+    },
+    "comment" : {
+      "en" : "Dryers"
+    },
+    "id" : "7",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c57--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c57--3",
+      "en" : "ResourceAssessment"
+    },
+    "comment" : {
+      "en" : "Resource assessment"
+    },
+    "id" : "8",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c11--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c11--4",
+      "en" : "Lighting"
+    },
+    "comment" : {
+      "en" : "Lighting"
+    },
+    "id" : "10",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c66--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c66--3",
+      "en" : "TypeOfProcessing"
+    },
+    "comment" : {
+      "en" : "Type of processing"
+    },
+    "id" : "12",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c4--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c4--4",
+      "en" : "Gutters"
+    },
+    "comment" : {
+      "en" : "Gutters"
+    },
+    "id" : "17",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c20--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c20--4",
+      "en" : "Trains"
+    },
+    "comment" : {
+      "en" : "Trains"
+    },
+    "id" : "23",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c43--5",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c43--5",
+      "en" : "DvdPlayers"
+    },
+    "comment" : {
+      "en" : "Dvd players"
+    },
+    "id" : "34",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c75--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c75--2",
+      "en" : "WastesManagement"
+    },
+    "comment" : {
+      "en" : "Wastes management"
+    },
+    "id" : "38",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c48--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c48--3",
+      "en" : "ObsoleteElectronics"
+    },
+    "subClasses" : [ "40" ],
+    "comment" : {
+      "en" : "Obsolete electronics"
+    },
+    "id" : "39",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c69--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c69--2",
+      "en" : "Fabrication(intermediateProducts"
+    },
+    "comment" : {
+      "en" : "Fabrication (intermediate products [Graedel])"
+    },
+    "id" : "41",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c37--5",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c37--5",
+      "en" : "Laptops"
+    },
+    "comment" : {
+      "en" : "Laptops"
+    },
+    "id" : "42",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c54--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c54--3",
+      "en" : "RegionalReconnaissance"
+    },
+    "comment" : {
+      "en" : "Regional reconnaissance"
+    },
+    "id" : "44",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c17--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c17--4",
+      "en" : "Cars"
+    },
+    "comment" : {
+      "en" : "Cars"
+    },
+    "id" : "27",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c40--5",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c40--5",
+      "en" : "Tablets"
+    },
+    "comment" : {
+      "en" : "Tablets"
+    },
+    "id" : "45",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c7--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c7--4",
+      "en" : "…"
+    },
+    "comment" : {
+      "en" : "…"
+    },
+    "id" : "46",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c61--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c61--3",
+      "en" : "Technical"
+    },
+    "comment" : {
+      "en" : "Technical"
+    },
+    "id" : "58",
+    "superClasses" : [ "59" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c23--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c23--4",
+      "en" : "Ships"
+    },
+    "comment" : {
+      "en" : "Ships"
+    },
+    "id" : "20",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c74--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c74--2",
+      "en" : "Refurbishment"
+    },
+    "comment" : {
+      "en" : "Refurbishment"
+    },
+    "id" : "66",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c49--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c49--4",
+      "en" : "…."
+    },
+    "comment" : {
+      "en" : "…."
+    },
+    "id" : "40",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c55--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c55--3",
+      "en" : "DetailedSurfaceExploration"
+    },
+    "comment" : {
+      "en" : "Detailed surface exploration"
+    },
+    "id" : "71",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c13--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c13--4",
+      "en" : "Pipes"
+    },
+    "comment" : {
+      "en" : "Pipes"
+    },
+    "id" : "64",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c32--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c32--4",
+      "en" : "Washing"
+    },
+    "comment" : {
+      "en" : "Washing"
+    },
+    "id" : "72",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c6--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c6--4",
+      "en" : "Cables"
+    },
+    "comment" : {
+      "en" : "Cables"
+    },
+    "id" : "49",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c68--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c68--2",
+      "en" : "Metallurgy"
+    },
+    "comment" : {
+      "en" : "Metallurgy "
+    },
+    "id" : "73",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c60--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c60--2",
+      "en" : "Pre-feasibility&Feasibility"
+    },
+    "subClasses" : [ "81", "82", "58" ],
+    "comment" : {
+      "en" : "Pre-feasibility & feasibility"
+    },
+    "id" : "59",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c26--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c26--4",
+      "en" : "Heating"
+    },
+    "comment" : {
+      "en" : "Heating"
+    },
+    "id" : "85",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c41--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c41--4",
+      "en" : "Recreation"
+    },
+    "subClasses" : [ "88", "89", "34" ],
+    "comment" : {
+      "en" : "Recreation"
+    },
+    "id" : "35",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c52--1",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c52--1",
+      "en" : "Value/supplyChain"
+    },
+    "subClasses" : [ "38", "66", "9", "5", "91", "87", "76", "41", "80", "78", "13", "70", "68", "73", "59" ],
+    "comment" : {
+      "en" : "VALUE/SUPPLY CHAIN"
+    },
+    "id" : "6"
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c77--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c77--2",
+      "en" : "Down-cycling/disposal"
+    },
+    "subClasses" : [ "94" ],
+    "comment" : {
+      "en" : "Down-cycling/disposal"
+    },
+    "id" : "76",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c1--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c1--2",
+      "en" : "StocksInUse"
+    },
+    "subClasses" : [ "11", "18", "1", "21" ],
+    "comment" : {
+      "en" : "Stocks in use"
+    },
+    "id" : "95",
+    "superClasses" : [ "96" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c10--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c10--4",
+      "en" : "FencesAndSigns"
+    },
+    "comment" : {
+      "en" : "Fences and signs"
+    },
+    "id" : "97",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c35--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c35--4",
+      "en" : "CommunicationDevices"
+    },
+    "subClasses" : [ "98", "45", "42", "99", "100" ],
+    "comment" : {
+      "en" : "Communication devices"
+    },
+    "id" : "43",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c15--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c15--4",
+      "en" : "…"
+    },
+    "comment" : {
+      "en" : "…"
+    },
+    "id" : "101",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c63--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c63--3",
+      "en" : "Social"
+    },
+    "comment" : {
+      "en" : "Social"
+    },
+    "id" : "82",
+    "superClasses" : [ "59" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c9--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c9--4",
+      "en" : "StreetFurniture"
+    },
+    "comment" : {
+      "en" : "Street furniture"
+    },
+    "id" : "102",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c21--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c21--4",
+      "en" : "TramsAndMetros"
+    },
+    "comment" : {
+      "en" : "Trams and metros"
+    },
+    "id" : "29",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c46--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c46--3",
+      "en" : "ObsoleteInfrastructure"
+    },
+    "subClasses" : [ "108" ],
+    "comment" : {
+      "en" : "Obsolete infrastructure"
+    },
+    "id" : "107",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c29--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c29--4",
+      "en" : "Stoves"
+    },
+    "comment" : {
+      "en" : "Stoves"
+    },
+    "id" : "111",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c53--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c53--2",
+      "en" : "Exploration"
+    },
+    "subClasses" : [ "8", "120", "121", "71", "44" ],
+    "comment" : {
+      "en" : "Exploration"
+    },
+    "id" : "9",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c76--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c76--2",
+      "en" : "Recycling"
+    },
+    "comment" : {
+      "en" : "Recycling"
+    },
+    "id" : "87",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c0--1",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c0--1",
+      "en" : "VariousTypesOf"
+    },
+    "subClasses" : [ "95", "4" ],
+    "comment" : {
+      "en" : "Various types of urban mines should go there:"
+    },
+    "id" : "96"
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c18--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c18--4",
+      "en" : "Vans"
+    },
+    "comment" : {
+      "en" : "Vans"
+    },
+    "id" : "37",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c38--5",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c38--5",
+      "en" : "Telephones"
+    },
+    "comment" : {
+      "en" : "Telephones"
+    },
+    "id" : "99",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c30--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c30--4",
+      "en" : "Refridgerators"
+    },
+    "comment" : {
+      "en" : "Refridgerators"
+    },
+    "id" : "118",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c62--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c62--3",
+      "en" : "Economic"
+    },
+    "comment" : {
+      "en" : "Economic"
+    },
+    "id" : "81",
+    "superClasses" : [ "59" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c8--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c8--3",
+      "en" : "StocksInInfrastructure"
+    },
+    "subClasses" : [ "101", "102", "97", "10", "64", "62", "54" ],
+    "comment" : {
+      "en" : "Stocks in infrastructure"
+    },
+    "id" : "11",
+    "superClasses" : [ "95" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c47--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c47--4",
+      "en" : "…"
+    },
+    "comment" : {
+      "en" : "…"
+    },
+    "id" : "108",
+    "superClasses" : [ "107" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c24--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c24--4",
+      "en" : "…"
+    },
+    "comment" : {
+      "en" : "…"
+    },
+    "id" : "25",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c27--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c27--4",
+      "en" : "Lighting"
+    },
+    "comment" : {
+      "en" : "Lighting"
+    },
+    "id" : "131",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c58--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c58--3",
+      "en" : "OreDepositEvaluation"
+    },
+    "comment" : {
+      "en" : "Ore deposit evaluation"
+    },
+    "id" : "120",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c71--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c71--2",
+      "en" : "Packaging"
+    },
+    "comment" : {
+      "en" : "Packaging"
+    },
+    "id" : "80",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c12--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c12--4",
+      "en" : "RailsAndOverhead"
+    },
+    "comment" : {
+      "en" : "Rails and overhead wires"
+    },
+    "id" : "62",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c50--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c50--3",
+      "en" : "StocksOnLandfill"
+    },
+    "comment" : {
+      "en" : "Stocks on landfill"
+    },
+    "id" : "115",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c33--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c33--4",
+      "en" : "WashingMachines"
+    },
+    "comment" : {
+      "en" : "Washing machines"
+    },
+    "id" : "136",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c65--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c65--3",
+      "en" : "TypeOfMining"
+    },
+    "comment" : {
+      "en" : "Type of mining operation"
+    },
+    "id" : "16",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c3--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c3--4",
+      "en" : "Roofs"
+    },
+    "comment" : {
+      "en" : "Roofs"
+    },
+    "id" : "51",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c44--5",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c44--5",
+      "en" : "CdPlayers"
+    },
+    "comment" : {
+      "en" : "Cd players"
+    },
+    "id" : "88",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c51--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c51--3",
+      "en" : "StocksInMining"
+    },
+    "comment" : {
+      "en" : "Stocks in mining waste and overburden"
+    },
+    "id" : "3",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c78--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c78--3",
+      "en" : "MineClosureOperations"
+    },
+    "comment" : {
+      "en" : "Mine closure operations"
+    },
+    "id" : "94",
+    "superClasses" : [ "76" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c2--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c2--3",
+      "en" : "StocksInBuildings"
+    },
+    "subClasses" : [ "46", "56", "49", "17", "51" ],
+    "comment" : {
+      "en" : "Stocks in buildings"
+    },
+    "id" : "18",
+    "superClasses" : [ "95" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c70--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c70--2",
+      "en" : "Manufacturing(finishedProducts"
+    },
+    "comment" : {
+      "en" : "Manufacturing (finished products [Graedel])"
+    },
+    "id" : "78",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c16--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c16--3",
+      "en" : "StocksInTransport"
+    },
+    "subClasses" : [ "31", "29", "37", "33", "23", "20", "27", "25" ],
+    "comment" : {
+      "en" : "Stocks in transport"
+    },
+    "id" : "21",
+    "superClasses" : [ "95" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c36--5",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c36--5",
+      "en" : "Computers"
+    },
+    "comment" : {
+      "en" : "Computers"
+    },
+    "id" : "100",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c64--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c64--2",
+      "en" : "MineDevelopment"
+    },
+    "subClasses" : [ "16", "12" ],
+    "comment" : {
+      "en" : "Mine development"
+    },
+    "id" : "13",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c59--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c59--2",
+      "en" : "PreliminaryEconomicAssessment"
+    },
+    "comment" : {
+      "en" : "Preliminary economic assessment"
+    },
+    "id" : "70",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c22--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c22--4",
+      "en" : "Airplanes"
+    },
+    "comment" : {
+      "en" : "Airplanes"
+    },
+    "id" : "31",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c45--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c45--2",
+      "en" : "HibernatingStocks"
+    },
+    "subClasses" : [ "3", "39", "107", "115" ],
+    "comment" : {
+      "en" : "Hibernating stocks"
+    },
+    "id" : "4",
+    "superClasses" : [ "96" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c73--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c73--2",
+      "en" : "Use"
+    },
+    "comment" : {
+      "en" : "Use"
+    },
+    "id" : "91",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c56--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c56--3",
+      "en" : "SubsurfaceExploration"
+    },
+    "comment" : {
+      "en" : "Subsurface exploration"
+    },
+    "id" : "121",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c31--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c31--4",
+      "en" : "Dishwashers"
+    },
+    "comment" : {
+      "en" : "Dishwashers"
+    },
+    "id" : "125",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c19--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c19--4",
+      "en" : "Trucks"
+    },
+    "comment" : {
+      "en" : "Trucks"
+    },
+    "id" : "33",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c14--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c14--4",
+      "en" : "Cables"
+    },
+    "comment" : {
+      "en" : "Cables"
+    },
+    "id" : "54",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c39--5",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c39--5",
+      "en" : "Mobiles"
+    },
+    "comment" : {
+      "en" : "Mobiles"
+    },
+    "id" : "98",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c5--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c5--4",
+      "en" : "Pipes"
+    },
+    "comment" : {
+      "en" : "Pipes"
+    },
+    "id" : "56",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c67--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c67--2",
+      "en" : "Mining"
+    },
+    "comment" : {
+      "en" : "Mining"
+    },
+    "id" : "68",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c25--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c25--3",
+      "en" : "StocksInHousehold"
+    },
+    "subClasses" : [ "131", "0", "7", "125", "111", "118", "43", "85", "72", "35", "136" ],
+    "comment" : {
+      "en" : "Stocks in household appliances"
+    },
+    "id" : "1",
+    "superClasses" : [ "95" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c42--5",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c42--5",
+      "en" : "TvSets"
+    },
+    "comment" : {
+      "en" : "TV sets"
+    },
+    "id" : "89",
+    "superClasses" : [ "35" ]
+  } ],
+  "property" : [ {
+    "id" : "2",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "14",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "19",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "47",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "50",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "52",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "53",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "55",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "57",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "60",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "61",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "63",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "65",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "67",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "69",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "74",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "75",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "77",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "79",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "83",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "84",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "86",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "90",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "92",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "93",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "103",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "104",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "105",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "106",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "109",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "110",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "112",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "113",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "114",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "116",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "117",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "119",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "122",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "123",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "124",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "126",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "127",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "128",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "129",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "130",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "132",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "133",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "134",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "135",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "137",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "138",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "139",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "140",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "141",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "142",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "143",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "144",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "145",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "146",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "147",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "148",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "149",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "150",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "151",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "152",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "153",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "154",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "155",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "4",
+    "domain" : "3",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "2"
+  }, {
+    "range" : "13",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "14"
+  }, {
+    "range" : "13",
+    "domain" : "16",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "15"
+  }, {
+    "range" : "21",
+    "domain" : "20",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "19"
+  }, {
+    "range" : "21",
+    "domain" : "23",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "22"
+  }, {
+    "range" : "21",
+    "domain" : "25",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "24"
+  }, {
+    "range" : "21",
+    "domain" : "27",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "26"
+  }, {
+    "range" : "21",
+    "domain" : "29",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "28"
+  }, {
+    "range" : "21",
+    "domain" : "31",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "30"
+  }, {
+    "range" : "21",
+    "domain" : "33",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "32"
+  }, {
+    "range" : "21",
+    "domain" : "37",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "36"
+  }, {
+    "range" : "18",
+    "domain" : "17",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "47"
+  }, {
+    "range" : "18",
+    "domain" : "49",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "48"
+  }, {
+    "range" : "18",
+    "domain" : "51",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "50"
+  }, {
+    "range" : "39",
+    "domain" : "40",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "52"
+  }, {
+    "range" : "11",
+    "domain" : "54",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "53"
+  }, {
+    "range" : "18",
+    "domain" : "56",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "55"
+  }, {
+    "range" : "18",
+    "domain" : "46",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "57"
+  }, {
+    "range" : "11",
+    "domain" : "10",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "60"
+  }, {
+    "range" : "11",
+    "domain" : "62",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "61"
+  }, {
+    "range" : "11",
+    "domain" : "64",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "63"
+  }, {
+    "range" : "6",
+    "domain" : "13",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "65"
+  }, {
+    "range" : "6",
+    "domain" : "68",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "67"
+  }, {
+    "range" : "6",
+    "domain" : "70",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "69"
+  }, {
+    "range" : "6",
+    "domain" : "41",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "74"
+  }, {
+    "range" : "6",
+    "domain" : "76",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "75"
+  }, {
+    "range" : "6",
+    "domain" : "78",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "77"
+  }, {
+    "range" : "6",
+    "domain" : "80",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "79"
+  }, {
+    "range" : "6",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "83"
+  }, {
+    "range" : "6",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "84"
+  }, {
+    "range" : "6",
+    "domain" : "87",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "86"
+  }, {
+    "range" : "6",
+    "domain" : "91",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "90"
+  }, {
+    "range" : "6",
+    "domain" : "66",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "92"
+  }, {
+    "range" : "6",
+    "domain" : "38",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "93"
+  }, {
+    "range" : "35",
+    "domain" : "34",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "103"
+  }, {
+    "range" : "59",
+    "domain" : "58",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "104"
+  }, {
+    "range" : "59",
+    "domain" : "82",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "105"
+  }, {
+    "range" : "35",
+    "domain" : "89",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "106"
+  }, {
+    "range" : "35",
+    "domain" : "88",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "109"
+  }, {
+    "range" : "4",
+    "domain" : "107",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "110"
+  }, {
+    "range" : "4",
+    "domain" : "39",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "112"
+  }, {
+    "range" : "59",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "113"
+  }, {
+    "range" : "4",
+    "domain" : "115",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "114"
+  }, {
+    "range" : "1",
+    "domain" : "43",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "116"
+  }, {
+    "range" : "1",
+    "domain" : "118",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "117"
+  }, {
+    "range" : "1",
+    "domain" : "72",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "119"
+  }, {
+    "range" : "1",
+    "domain" : "85",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "122"
+  }, {
+    "range" : "1",
+    "domain" : "111",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "123"
+  }, {
+    "range" : "1",
+    "domain" : "125",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "124"
+  }, {
+    "range" : "1",
+    "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "126"
+  }, {
+    "range" : "107",
+    "domain" : "108",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "127"
+  }, {
+    "range" : "43",
+    "domain" : "100",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "128"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "129"
+  }, {
+    "range" : "1",
+    "domain" : "131",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "130"
+  }, {
+    "range" : "43",
+    "domain" : "45",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "132"
+  }, {
+    "range" : "43",
+    "domain" : "98",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "133"
+  }, {
+    "range" : "43",
+    "domain" : "99",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "134"
+  }, {
+    "range" : "43",
+    "domain" : "42",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "135"
+  }, {
+    "range" : "95",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "137"
+  }, {
+    "range" : "95",
+    "domain" : "18",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "138"
+  }, {
+    "range" : "95",
+    "domain" : "21",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "139"
+  }, {
+    "range" : "6",
+    "domain" : "59",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "140"
+  }, {
+    "range" : "6",
+    "domain" : "73",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "141"
+  }, {
+    "range" : "95",
+    "domain" : "11",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "142"
+  }, {
+    "range" : "76",
+    "domain" : "94",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "143"
+  }, {
+    "range" : "9",
+    "domain" : "121",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "144"
+  }, {
+    "range" : "9",
+    "domain" : "71",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "145"
+  }, {
+    "range" : "9",
+    "domain" : "44",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "146"
+  }, {
+    "range" : "96",
+    "domain" : "95",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "147"
+  }, {
+    "range" : "96",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "148"
+  }, {
+    "range" : "11",
+    "domain" : "101",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "149"
+  }, {
+    "range" : "11",
+    "domain" : "102",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "150"
+  }, {
+    "range" : "11",
+    "domain" : "97",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "151"
+  }, {
+    "range" : "9",
+    "domain" : "8",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "152"
+  }, {
+    "range" : "9",
+    "domain" : "120",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "153"
+  }, {
+    "range" : "1",
+    "domain" : "136",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "154"
+  }, {
+    "range" : "1",
+    "domain" : "35",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "155"
+  } ]
+}

@@ -1,0 +1,2183 @@
+{
+  "_comment" : "Created with OWL2VOWL (version @project.version@), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://www.mica.eu/ontologies/thing", "http://www.w3.org/2001/XMLSchema" ],
+    "iri" : "http://www.mica.eu/ontologies/thing",
+    "version" : "1.0",
+    "labels" : {
+      "en" : "label"
+    },
+    "comments" : {
+      "en" : "write comment here"
+    },
+    "other" : {
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "1.0",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "metrics" : {
+    "classCount" : 90,
+    "datatypeCount" : 3,
+    "objectPropertyCount" : 85,
+    "datatypePropertyCount" : 0,
+    "propertyCount" : 85,
+    "nodeCount" : 93,
+    "individualCount" : 0
+  },
+  "class" : [ {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "72",
+    "type" : "owl:Class"
+  }, {
+    "id" : "74",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "80",
+    "type" : "owl:Class"
+  }, {
+    "id" : "75",
+    "type" : "owl:Class"
+  }, {
+    "id" : "85",
+    "type" : "owl:Class"
+  }, {
+    "id" : "86",
+    "type" : "owl:Class"
+  }, {
+    "id" : "87",
+    "type" : "owl:Class"
+  }, {
+    "id" : "89",
+    "type" : "owl:Class"
+  }, {
+    "id" : "90",
+    "type" : "owl:Class"
+  }, {
+    "id" : "91",
+    "type" : "owl:Class"
+  }, {
+    "id" : "92",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "112",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "108",
+    "type" : "owl:Class"
+  }, {
+    "id" : "118",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
+    "id" : "125",
+    "type" : "owl:Class"
+  }, {
+    "id" : "105",
+    "type" : "owl:Class"
+  }, {
+    "id" : "132",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "71",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "99",
+    "type" : "owl:Class"
+  }, {
+    "id" : "130",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "114",
+    "type" : "owl:Class"
+  }, {
+    "id" : "110",
+    "type" : "owl:Class"
+  }, {
+    "id" : "65",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "78",
+    "type" : "owl:Class"
+  }, {
+    "id" : "93",
+    "type" : "owl:Class"
+  }, {
+    "id" : "111",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "82",
+    "type" : "owl:Class"
+  }, {
+    "id" : "160",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "113",
+    "type" : "owl:Class"
+  }, {
+    "id" : "67",
+    "type" : "owl:Class"
+  }, {
+    "id" : "127",
+    "type" : "owl:Class"
+  }, {
+    "id" : "136",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "135",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "88",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "109",
+    "type" : "owl:Class"
+  }, {
+    "id" : "115",
+    "type" : "owl:Class"
+  }, {
+    "id" : "94",
+    "type" : "owl:Class"
+  }, {
+    "id" : "102",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.mica.eu/ontologies/thing#c28--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c28--2",
+      "en" : "InfographicsAndOther"
+    },
+    "comment" : {
+      "en" : "Infographics and other media (e.g. videos)"
+    },
+    "id" : "3",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c72--5",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c72--5",
+      "en" : "Oef"
+    },
+    "comment" : {
+      "en" : "OEF"
+    },
+    "id" : "5",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c57--6",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c57--6",
+      "en" : "Cml2001"
+    },
+    "comment" : {
+      "en" : "CML2001"
+    },
+    "id" : "7",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c11--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c11--3",
+      "en" : "TradeAssociation"
+    },
+    "comment" : {
+      "en" : "Trade association"
+    },
+    "id" : "9",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c34--5",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c34--5",
+      "en" : "SubstanceFlowAccounting"
+    },
+    "comment" : {
+      "en" : "Substance Flow Accounting"
+    },
+    "id" : "11",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c66--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c66--4",
+      "en" : "Trade-linkedOrNot"
+    },
+    "comment" : {
+      "en" : "trade-linked or not"
+    },
+    "id" : "13",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c4--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c4--3",
+      "en" : "LobbyingGroup"
+    },
+    "comment" : {
+      "en" : "Lobbying group"
+    },
+    "id" : "18",
+    "superClasses" : [ "19" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c89--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c89--3",
+      "en" : "EnvironmentalAssessment"
+    },
+    "comment" : {
+      "en" : "Environmental assessment"
+    },
+    "id" : "21",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c81--5",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c81--5",
+      "en" : "RelatedToToxic"
+    },
+    "comment" : {
+      "en" : "Related to toxic emissions"
+    },
+    "id" : "31",
+    "superClasses" : [ "32" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c43--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c43--4",
+      "en" : "EstimatesOfWaste"
+    },
+    "comment" : {
+      "en" : "Estimates of waste and emissions"
+    },
+    "id" : "33",
+    "superClasses" : [ "34" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c20--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c20--2",
+      "en" : "PaperMaps"
+    },
+    "comment" : {
+      "en" : "Paper maps "
+    },
+    "id" : "40",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c75--5",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c75--5",
+      "en" : "WaterFootprint"
+    },
+    "comment" : {
+      "en" : "Water footprint"
+    },
+    "id" : "44",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c17--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c17--3",
+      "en" : "Other(e.g.General"
+    },
+    "comment" : {
+      "en" : "Other (e.g. General press)"
+    },
+    "id" : "45",
+    "superClasses" : [ "46" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c54--5",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c54--5",
+      "en" : "…."
+    },
+    "comment" : {
+      "en" : "…."
+    },
+    "id" : "47",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c7--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c7--2",
+      "en" : "Report"
+    },
+    "subClasses" : [ "36", "43", "39", "25", "9" ],
+    "comment" : {
+      "en" : "Report"
+    },
+    "id" : "10",
+    "superClasses" : [ "49" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c37--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c37--3",
+      "en" : "InputOutputAnalysis"
+    },
+    "subClasses" : [ "30", "27" ],
+    "comment" : {
+      "en" : "Input Output Analysis"
+    },
+    "id" : "28",
+    "superClasses" : [ "50" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c69--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c69--3",
+      "en" : "EnvironmentalFootprinting"
+    },
+    "subClasses" : [ "6", "16" ],
+    "comment" : {
+      "en" : "Environmental footprinting"
+    },
+    "id" : "17",
+    "superClasses" : [ "57" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c48--5",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c48--5",
+      "en" : "StocksAtMining"
+    },
+    "comment" : {
+      "en" : "Stocks at mining sites"
+    },
+    "id" : "60",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c86--6",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c86--6",
+      "en" : "RelatedToHuman"
+    },
+    "comment" : {
+      "en" : "Related to human health"
+    },
+    "id" : "62",
+    "superClasses" : [ "63" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c23--1",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c23--1",
+      "en" : "StatisticalData"
+    },
+    "subClasses" : [ "68", "69", "70", "3", "71" ],
+    "comment" : {
+      "en" : "Statistical data "
+    },
+    "id" : "4"
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c40--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c40--2",
+      "en" : "MethodsNotCovering"
+    },
+    "subClasses" : [ "34" ],
+    "comment" : {
+      "en" : "Methods not covering the supply chain"
+    },
+    "id" : "72",
+    "superClasses" : [ "73" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c61--5",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c61--5",
+      "en" : "OtherMethods"
+    },
+    "subClasses" : [ "76" ],
+    "comment" : {
+      "en" : "Other methods"
+    },
+    "id" : "74",
+    "superClasses" : [ "75" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c26--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c26--2",
+      "en" : "ReportsWithStatistical"
+    },
+    "comment" : {
+      "en" : "Reports with statistical data"
+    },
+    "id" : "68",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c49--1",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c49--1",
+      "en" : "MethodsToAssess"
+    },
+    "subClasses" : [ "57", "22" ],
+    "comment" : {
+      "en" : "Methods to assess environmental impacts"
+    },
+    "id" : "80"
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c55--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c55--4",
+      "en" : "LifeCycleImpact"
+    },
+    "subClasses" : [ "82", "8", "74" ],
+    "comment" : {
+      "en" : "Life Cycle Impact Assessment"
+    },
+    "id" : "75",
+    "superClasses" : [ "78" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c74--5",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c74--5",
+      "en" : "EcologicalFootprint"
+    },
+    "comment" : {
+      "en" : "Ecological footprint"
+    },
+    "id" : "85",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c13--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c13--2",
+      "en" : "Paper"
+    },
+    "comment" : {
+      "en" : "Paper"
+    },
+    "id" : "86",
+    "superClasses" : [ "49" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c32--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c32--4",
+      "en" : "MaterialFlowAccounting"
+    },
+    "comment" : {
+      "en" : "Material Flow Accounting according to Eurostat methodology"
+    },
+    "id" : "87",
+    "superClasses" : [ "88" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c6--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c6--3",
+      "en" : "Other(e.g.Wikipedia)"
+    },
+    "comment" : {
+      "en" : "Other (e.g. Wikipedia)"
+    },
+    "id" : "89",
+    "superClasses" : [ "19" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c68--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c68--4",
+      "en" : "???I'mNot"
+    },
+    "comment" : {
+      "en" : "??? I'm not sure how to do this"
+    },
+    "id" : "90",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c60--6",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c60--6",
+      "en" : "…."
+    },
+    "comment" : {
+      "en" : "…."
+    },
+    "id" : "91",
+    "superClasses" : [ "82" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c83--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c83--4",
+      "en" : "EnvironmentalRiskAssessment"
+    },
+    "subClasses" : [ "63", "94" ],
+    "comment" : {
+      "en" : "Environmental risk assessment"
+    },
+    "id" : "92",
+    "superClasses" : [ "93" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c41--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c41--3",
+      "en" : "MaterialBalances"
+    },
+    "subClasses" : [ "33", "2", "102" ],
+    "comment" : {
+      "en" : "Material balances"
+    },
+    "id" : "34",
+    "superClasses" : [ "72" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c52--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c52--4",
+      "en" : "LifeCycleInventory"
+    },
+    "subClasses" : [ "105", "47" ],
+    "comment" : {
+      "en" : "Life Cycle Inventory"
+    },
+    "id" : "48",
+    "superClasses" : [ "78" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c77--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c77--2",
+      "en" : "MethodsNotCovering"
+    },
+    "subClasses" : [ "93", "21", "108" ],
+    "comment" : {
+      "en" : "Methods not covering the supply chain"
+    },
+    "id" : "22",
+    "superClasses" : [ "80" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c1--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c1--2",
+      "en" : "Website"
+    },
+    "subClasses" : [ "89", "109", "18", "110", "111" ],
+    "comment" : {
+      "en" : "Website"
+    },
+    "id" : "19",
+    "superClasses" : [ "49" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c10--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c10--3",
+      "en" : "LobbyingGroup"
+    },
+    "comment" : {
+      "en" : "Lobbying group"
+    },
+    "id" : "39",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c35--5",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c35--5",
+      "en" : "Static(equilibrium)Modelling"
+    },
+    "comment" : {
+      "en" : "Static (equilibrium) modelling of substance flows"
+    },
+    "id" : "56",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c15--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c15--3",
+      "en" : "Company"
+    },
+    "comment" : {
+      "en" : "Company"
+    },
+    "id" : "112",
+    "superClasses" : [ "46" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c9--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c9--3",
+      "en" : "GovernmentOrganisation"
+    },
+    "comment" : {
+      "en" : "Government organisation"
+    },
+    "id" : "36",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c63--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c63--3",
+      "en" : "Ee-ioa"
+    },
+    "subClasses" : [ "113", "114", "13", "115", "90" ],
+    "comment" : {
+      "en" : "EE-IOA"
+    },
+    "id" : "14",
+    "superClasses" : [ "57" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c88--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c88--3",
+      "en" : "TechnologyAssessment"
+    },
+    "comment" : {
+      "en" : "Technology assessment"
+    },
+    "id" : "108",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c46--5",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c46--5",
+      "en" : "HibernatingStocks"
+    },
+    "comment" : {
+      "en" : "Hibernating stocks"
+    },
+    "id" : "118",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c29--1",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c29--1",
+      "en" : "MethodsToAssess"
+    },
+    "subClasses" : [ "72", "50" ],
+    "comment" : {
+      "en" : "Methods to assess material flows"
+    },
+    "id" : "73"
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c80--5",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c80--5",
+      "en" : "RelatedToExplosions"
+    },
+    "comment" : {
+      "en" : "Related to explosions"
+    },
+    "id" : "54",
+    "superClasses" : [ "32" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c21--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c21--2",
+      "en" : "SatelliteOrAerial"
+    },
+    "comment" : {
+      "en" : "satellite or aerial imagery"
+    },
+    "id" : "125",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c53--5",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c53--5",
+      "en" : "Ecoinvent"
+    },
+    "comment" : {
+      "en" : "Ecoinvent"
+    },
+    "id" : "105",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c76--5",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c76--5",
+      "en" : "CarbonFootprint"
+    },
+    "comment" : {
+      "en" : "Carbon footprint"
+    },
+    "id" : "132",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c0--1",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c0--1",
+      "en" : "GeneralDescriptiveInformation"
+    },
+    "subClasses" : [ "46", "10", "19", "86" ],
+    "comment" : {
+      "en" : "General descriptive information"
+    },
+    "id" : "49"
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c18--1",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c18--1",
+      "en" : "SpatialData"
+    },
+    "subClasses" : [ "135", "136", "125", "40" ],
+    "comment" : {
+      "en" : "Spatial data "
+    },
+    "id" : "41"
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c30--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c30--2",
+      "en" : "MethodsCoveringThe"
+    },
+    "subClasses" : [ "28", "88" ],
+    "comment" : {
+      "en" : "Methods covering the supply chain"
+    },
+    "id" : "50",
+    "superClasses" : [ "73" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c38--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c38--4",
+      "en" : "PhysicalInputOutput"
+    },
+    "comment" : {
+      "en" : "Physical Input Output Tables"
+    },
+    "id" : "27",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c8--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c8--3",
+      "en" : "Company"
+    },
+    "comment" : {
+      "en" : "Company"
+    },
+    "id" : "43",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c47--5",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c47--5",
+      "en" : "StocksOnLandfills"
+    },
+    "comment" : {
+      "en" : "Stocks on landfills"
+    },
+    "id" : "1",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c85--5",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c85--5",
+      "en" : "ExposureModels"
+    },
+    "subClasses" : [ "67", "62" ],
+    "comment" : {
+      "en" : "Exposure  models"
+    },
+    "id" : "63",
+    "superClasses" : [ "92" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c24--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c24--2",
+      "en" : "Electronic(e.g.Databases)"
+    },
+    "comment" : {
+      "en" : "Electronic (e.g. databases)"
+    },
+    "id" : "71",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c62--6",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c62--6",
+      "en" : "Recipe"
+    },
+    "comment" : {
+      "en" : "ReCiPe"
+    },
+    "id" : "76",
+    "superClasses" : [ "74" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c50--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c50--2",
+      "en" : "MethodsCoveringThe"
+    },
+    "subClasses" : [ "78", "14", "17" ],
+    "comment" : {
+      "en" : "Methods covering the supply chain"
+    },
+    "id" : "57",
+    "superClasses" : [ "80" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c27--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c27--2",
+      "en" : "MetadataOnStatistical"
+    },
+    "comment" : {
+      "en" : "Metadata on statistical data"
+    },
+    "id" : "70",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c79--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c79--4",
+      "en" : "Disasters/Incidental"
+    },
+    "subClasses" : [ "65", "31", "54" ],
+    "comment" : {
+      "en" : "Disasters / incidental impacts"
+    },
+    "id" : "32",
+    "superClasses" : [ "93" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c71--5",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c71--5",
+      "en" : "Pef"
+    },
+    "comment" : {
+      "en" : "PEF"
+    },
+    "id" : "99",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c58--6",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c58--6",
+      "en" : "…"
+    },
+    "comment" : {
+      "en" : "…"
+    },
+    "id" : "130",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c12--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c12--3",
+      "en" : "Other"
+    },
+    "comment" : {
+      "en" : "Other"
+    },
+    "id" : "25",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c33--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c33--4",
+      "en" : "Substance(/material)Flow"
+    },
+    "subClasses" : [ "52", "56", "11" ],
+    "comment" : {
+      "en" : "Substance (/material) Flow Analysis"
+    },
+    "id" : "12",
+    "superClasses" : [ "88" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c65--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c65--4",
+      "en" : "SectoralCoverage/"
+    },
+    "comment" : {
+      "en" : "sectoral coverage / level of detail"
+    },
+    "id" : "114",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c3--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c3--3",
+      "en" : "GovernmentOrganisation"
+    },
+    "comment" : {
+      "en" : "Government organisation"
+    },
+    "id" : "110",
+    "superClasses" : [ "19" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c82--5",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c82--5",
+      "en" : "RelatedToOther"
+    },
+    "comment" : {
+      "en" : "Related to other accidents"
+    },
+    "id" : "65",
+    "superClasses" : [ "32" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c44--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c44--4",
+      "en" : "StockAssessments"
+    },
+    "subClasses" : [ "1", "118", "60", "127" ],
+    "comment" : {
+      "en" : "Stock assessments"
+    },
+    "id" : "2",
+    "superClasses" : [ "34" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c51--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c51--3",
+      "en" : "LifeCycleAssessment"
+    },
+    "subClasses" : [ "48", "75" ],
+    "comment" : {
+      "en" : "Life cycle assessment"
+    },
+    "id" : "78",
+    "superClasses" : [ "57" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c78--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c78--3",
+      "en" : "RiskAssessmentMethods"
+    },
+    "subClasses" : [ "32", "92" ],
+    "comment" : {
+      "en" : "Risk assessment methods"
+    },
+    "id" : "93",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c2--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c2--3",
+      "en" : "Company"
+    },
+    "comment" : {
+      "en" : "Company"
+    },
+    "id" : "111",
+    "superClasses" : [ "19" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c70--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c70--4",
+      "en" : "CoveringAWide"
+    },
+    "subClasses" : [ "5", "99" ],
+    "comment" : {
+      "en" : "Covering a wide array of impacts"
+    },
+    "id" : "6",
+    "superClasses" : [ "17" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c59--5",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c59--5",
+      "en" : "EndpointMethods"
+    },
+    "subClasses" : [ "91" ],
+    "comment" : {
+      "en" : "Endpoint methods"
+    },
+    "id" : "82",
+    "superClasses" : [ "75" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c16--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c16--3",
+      "en" : "SpecialistMagazines"
+    },
+    "comment" : {
+      "en" : "Specialist magazines"
+    },
+    "id" : "160",
+    "superClasses" : [ "46" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c36--5",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c36--5",
+      "en" : "DynamicModellingOf"
+    },
+    "comment" : {
+      "en" : "Dynamic modelling of substance flows"
+    },
+    "id" : "52",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c64--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c64--4",
+      "en" : "GeographicalCoverage"
+    },
+    "comment" : {
+      "en" : "geographical coverage"
+    },
+    "id" : "113",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c87--6",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c87--6",
+      "en" : "RelatedToEcosystem"
+    },
+    "comment" : {
+      "en" : "Related to ecosystem health"
+    },
+    "id" : "67",
+    "superClasses" : [ "63" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c45--5",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c45--5",
+      "en" : "UrbanStocks-in-use"
+    },
+    "comment" : {
+      "en" : "Urban stocks-in-use"
+    },
+    "id" : "127",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c22--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c22--2",
+      "en" : "MetadataOnSpatial"
+    },
+    "comment" : {
+      "en" : "Metadata on spatial data"
+    },
+    "id" : "136",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c25--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c25--2",
+      "en" : "PaperFormatStatistical"
+    },
+    "comment" : {
+      "en" : "Paper format statistical data"
+    },
+    "id" : "69",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c19--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c19--2",
+      "en" : "Electronic(e.g.Web"
+    },
+    "comment" : {
+      "en" : "Electronic (e.g. web portals)"
+    },
+    "id" : "135",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c73--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c73--4",
+      "en" : "CoveringSelectedImpacts"
+    },
+    "subClasses" : [ "132", "44", "85" ],
+    "comment" : {
+      "en" : "Covering selected impacts"
+    },
+    "id" : "16",
+    "superClasses" : [ "17" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c56--5",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c56--5",
+      "en" : "MidpointMethods"
+    },
+    "subClasses" : [ "130", "7" ],
+    "comment" : {
+      "en" : "Midpoint methods"
+    },
+    "id" : "8",
+    "superClasses" : [ "75" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c31--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c31--3",
+      "en" : "MaterialFlowAnalysis"
+    },
+    "subClasses" : [ "87", "12" ],
+    "comment" : {
+      "en" : "Material Flow Analysis"
+    },
+    "id" : "88",
+    "superClasses" : [ "50" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c39--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c39--4",
+      "en" : "EnvironmentallyExtendedInput"
+    },
+    "comment" : {
+      "en" : "Environmentally extended Input Output Analysis (only if including resource extractions)"
+    },
+    "id" : "30",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c14--2",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c14--2",
+      "en" : "MagazineArticle"
+    },
+    "subClasses" : [ "45", "160", "112" ],
+    "comment" : {
+      "en" : "Magazine article"
+    },
+    "id" : "46",
+    "superClasses" : [ "49" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c5--3",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c5--3",
+      "en" : "TradeAssociation"
+    },
+    "comment" : {
+      "en" : "Trade association"
+    },
+    "id" : "109",
+    "superClasses" : [ "19" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c67--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c67--4",
+      "en" : "WithGemCore"
+    },
+    "comment" : {
+      "en" : "with GEM core or not"
+    },
+    "id" : "115",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c84--5",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c84--5",
+      "en" : "FateModels"
+    },
+    "comment" : {
+      "en" : "Fate models"
+    },
+    "id" : "94",
+    "superClasses" : [ "92" ]
+  }, {
+    "iri" : "http://www.mica.eu/ontologies/thing#c42--4",
+    "baseIri" : "http://www.mica.eu/ontologies/thing",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c42--4",
+      "en" : "InputsAndOutputs"
+    },
+    "comment" : {
+      "en" : "Inputs and outputs of industrial processes"
+    },
+    "id" : "102",
+    "superClasses" : [ "34" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "37",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "53",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "55",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "58",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "61",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "64",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "77",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "79",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "81",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "83",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "84",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "95",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "96",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "97",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "98",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "100",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "101",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "103",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "104",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "106",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "107",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "116",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "117",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "119",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "120",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "121",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "122",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "123",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "124",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "126",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "128",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "129",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "131",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "133",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "134",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "137",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "138",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "139",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "140",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "141",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "142",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "143",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "144",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "145",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "146",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "147",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "148",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "149",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "150",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "151",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "152",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "153",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "154",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "155",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "156",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "157",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "158",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "159",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "161",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "162",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "163",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "164",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "165",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "166",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "167",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "168",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "169",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "170",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "171",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "172",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "173",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "174",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "0"
+  }, {
+    "range" : "17",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "15"
+  }, {
+    "range" : "17",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "20"
+  }, {
+    "range" : "10",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "23"
+  }, {
+    "range" : "10",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "24"
+  }, {
+    "range" : "28",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "26"
+  }, {
+    "range" : "28",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "29"
+  }, {
+    "range" : "10",
+    "domain" : "36",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "35"
+  }, {
+    "range" : "12",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "37"
+  }, {
+    "range" : "10",
+    "domain" : "39",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "38"
+  }, {
+    "range" : "10",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "42"
+  }, {
+    "range" : "12",
+    "domain" : "52",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "51"
+  }, {
+    "range" : "32",
+    "domain" : "54",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "53"
+  }, {
+    "range" : "12",
+    "domain" : "56",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "55"
+  }, {
+    "range" : "57",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "58"
+  }, {
+    "range" : "57",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "59"
+  }, {
+    "range" : "32",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "61"
+  }, {
+    "range" : "32",
+    "domain" : "65",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "64"
+  }, {
+    "range" : "63",
+    "domain" : "67",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "66"
+  }, {
+    "range" : "57",
+    "domain" : "78",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "77"
+  }, {
+    "range" : "63",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "79"
+  }, {
+    "range" : "75",
+    "domain" : "82",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "81"
+  }, {
+    "range" : "75",
+    "domain" : "74",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "83"
+  }, {
+    "range" : "75",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "84"
+  }, {
+    "range" : "6",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "95"
+  }, {
+    "range" : "93",
+    "domain" : "92",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "96"
+  }, {
+    "range" : "82",
+    "domain" : "91",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "97"
+  }, {
+    "range" : "6",
+    "domain" : "99",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "98"
+  }, {
+    "range" : "78",
+    "domain" : "48",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "100"
+  }, {
+    "range" : "80",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "101"
+  }, {
+    "range" : "93",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "103"
+  }, {
+    "range" : "78",
+    "domain" : "75",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "104"
+  }, {
+    "range" : "80",
+    "domain" : "57",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "106"
+  }, {
+    "range" : "74",
+    "domain" : "76",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "107"
+  }, {
+    "range" : "72",
+    "domain" : "34",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "116"
+  }, {
+    "range" : "4",
+    "domain" : "70",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "117"
+  }, {
+    "range" : "4",
+    "domain" : "69",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "119"
+  }, {
+    "range" : "4",
+    "domain" : "71",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "120"
+  }, {
+    "range" : "4",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "121"
+  }, {
+    "range" : "2",
+    "domain" : "60",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "122"
+  }, {
+    "range" : "2",
+    "domain" : "118",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "123"
+  }, {
+    "range" : "4",
+    "domain" : "68",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "124"
+  }, {
+    "range" : "2",
+    "domain" : "127",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "126"
+  }, {
+    "range" : "8",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "128"
+  }, {
+    "range" : "8",
+    "domain" : "130",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "129"
+  }, {
+    "range" : "88",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "131"
+  }, {
+    "range" : "88",
+    "domain" : "87",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "133"
+  }, {
+    "range" : "16",
+    "domain" : "85",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "134"
+  }, {
+    "range" : "16",
+    "domain" : "44",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "137"
+  }, {
+    "range" : "16",
+    "domain" : "132",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "138"
+  }, {
+    "range" : "19",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "139"
+  }, {
+    "range" : "19",
+    "domain" : "109",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "140"
+  }, {
+    "range" : "19",
+    "domain" : "111",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "141"
+  }, {
+    "range" : "19",
+    "domain" : "110",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "142"
+  }, {
+    "range" : "22",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "143"
+  }, {
+    "range" : "22",
+    "domain" : "93",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "144"
+  }, {
+    "range" : "19",
+    "domain" : "89",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "145"
+  }, {
+    "range" : "22",
+    "domain" : "108",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "146"
+  }, {
+    "range" : "48",
+    "domain" : "105",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "147"
+  }, {
+    "range" : "34",
+    "domain" : "102",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "148"
+  }, {
+    "range" : "48",
+    "domain" : "47",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "149"
+  }, {
+    "range" : "92",
+    "domain" : "94",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "150"
+  }, {
+    "range" : "92",
+    "domain" : "63",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "151"
+  }, {
+    "range" : "34",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "152"
+  }, {
+    "range" : "34",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "153"
+  }, {
+    "range" : "49",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "154"
+  }, {
+    "range" : "49",
+    "domain" : "86",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "155"
+  }, {
+    "range" : "41",
+    "domain" : "135",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "156"
+  }, {
+    "range" : "41",
+    "domain" : "136",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "157"
+  }, {
+    "range" : "41",
+    "domain" : "125",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "158"
+  }, {
+    "range" : "41",
+    "domain" : "40",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "159"
+  }, {
+    "range" : "50",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "161"
+  }, {
+    "range" : "50",
+    "domain" : "88",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "162"
+  }, {
+    "range" : "49",
+    "domain" : "46",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "163"
+  }, {
+    "range" : "49",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "164"
+  }, {
+    "range" : "73",
+    "domain" : "72",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "165"
+  }, {
+    "range" : "14",
+    "domain" : "90",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "166"
+  }, {
+    "range" : "73",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "167"
+  }, {
+    "range" : "14",
+    "domain" : "115",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "168"
+  }, {
+    "range" : "14",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "169"
+  }, {
+    "range" : "14",
+    "domain" : "114",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "170"
+  }, {
+    "range" : "46",
+    "domain" : "160",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "171"
+  }, {
+    "range" : "46",
+    "domain" : "45",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "172"
+  }, {
+    "range" : "14",
+    "domain" : "113",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "173"
+  }, {
+    "range" : "46",
+    "domain" : "112",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "174"
+  } ]
+}

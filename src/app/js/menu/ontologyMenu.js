@@ -8,7 +8,7 @@ var unescape = require("lodash/unescape");
 module.exports = function () {
 
     var ontologyMenu = {},
-            DEFAULT_JSON_NAME = "MainOntology", // This file is loaded by default
+            DEFAULT_JSON_NAME = "MainOntology_DRAFT_VERSION2_03052016", // This file is loaded by default
             loadingError = d3.select("#loading-error"),
             loadingProgress = d3.select("#loading-progress"),
             ontologyMenuTimeout,
