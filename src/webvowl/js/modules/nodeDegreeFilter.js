@@ -95,10 +95,14 @@ module.exports = function (menu) {
 
     //class name as the following format "name--level" ex : c125--5
     function getLevel(node) {
-        var res = node.iri().split("--");
+        try {
+            var res = node.iri().split("--");
+        } catch (err) {
+            return -1;
+        }
         length = res.length;
         if (length > 1) {
-            return parseInt(res[length-1]);
+            return parseInt(res[length - 1]);
         } else {
             return -1;
         }
