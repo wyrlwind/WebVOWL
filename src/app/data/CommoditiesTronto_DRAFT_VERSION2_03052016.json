@@ -2,3388 +2,702 @@
   "_comment" : "Created with OWL2VOWL (version @project.version@), http://vowl.visualdataweb.org",
   "header" : {
     "languages" : [ "en", "undefined" ],
-    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://www.exemple.org/ontologies/Things", "http://www.w3.org/2001/XMLSchema" ],
-    "iri" : "http://www.exemple.org/ontologies/Things",
-    "version" : "14042016",
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016", "http://www.w3.org/2001/XMLSchema" ],
+    "iri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016",
     "labels" : {
-      "en" : "Main Ontology"
+      "en" : "label"
     },
-    "comments" : {
-      "en" : "ontology"
-    },
+    "comments" : { },
     "other" : {
       "versionInfo" : [ {
         "identifier" : "versionInfo",
         "language" : "undefined",
-        "value" : "14042016",
+        "value" : "",
         "type" : "label"
       } ]
     }
   },
   "namespace" : [ ],
   "metrics" : {
-    "classCount" : 204,
+    "classCount" : 37,
     "datatypeCount" : 3,
-    "objectPropertyCount" : 194,
+    "objectPropertyCount" : 33,
     "datatypePropertyCount" : 0,
-    "propertyCount" : 194,
-    "nodeCount" : 207,
+    "propertyCount" : 33,
+    "nodeCount" : 40,
     "individualCount" : 0
   },
   "class" : [ {
-    "id" : "17",
-    "type" : "owl:Class"
-  }, {
-    "id" : "24",
-    "type" : "owl:Class"
-  }, {
-    "id" : "26",
-    "type" : "owl:Class"
-  }, {
-    "id" : "1",
-    "type" : "owl:Class"
-  }, {
-    "id" : "30",
-    "type" : "owl:Class"
-  }, {
-    "id" : "32",
-    "type" : "owl:Class"
-  }, {
-    "id" : "38",
-    "type" : "owl:Class"
-  }, {
-    "id" : "40",
-    "type" : "owl:Class"
-  }, {
-    "id" : "44",
-    "type" : "owl:Class"
-  }, {
-    "id" : "47",
-    "type" : "owl:Class"
-  }, {
-    "id" : "54",
-    "type" : "owl:Class"
-  }, {
-    "id" : "73",
-    "type" : "owl:Class"
-  }, {
-    "id" : "75",
-    "type" : "owl:Class"
-  }, {
-    "id" : "76",
-    "type" : "owl:Class"
-  }, {
-    "id" : "83",
-    "type" : "owl:Class"
-  }, {
-    "id" : "56",
-    "type" : "owl:Class"
-  }, {
-    "id" : "90",
-    "type" : "owl:Class"
-  }, {
-    "id" : "92",
-    "type" : "owl:Class"
-  }, {
-    "id" : "82",
-    "type" : "owl:Class"
-  }, {
-    "id" : "101",
-    "type" : "owl:Class"
-  }, {
-    "id" : "103",
-    "type" : "owl:Class"
-  }, {
-    "id" : "105",
-    "type" : "owl:Class"
-  }, {
-    "id" : "29",
-    "type" : "owl:Class"
-  }, {
-    "id" : "41",
-    "type" : "owl:Class"
-  }, {
-    "id" : "110",
-    "type" : "owl:Class"
-  }, {
-    "id" : "115",
-    "type" : "owl:Class"
-  }, {
-    "id" : "116",
-    "type" : "owl:Class"
-  }, {
-    "id" : "55",
-    "type" : "owl:Class"
-  }, {
-    "id" : "124",
-    "type" : "owl:Class"
-  }, {
-    "id" : "126",
-    "type" : "owl:Class"
-  }, {
-    "id" : "128",
-    "type" : "owl:Class"
-  }, {
-    "id" : "133",
-    "type" : "owl:Class"
-  }, {
-    "id" : "100",
-    "type" : "owl:Class"
-  }, {
-    "id" : "138",
-    "type" : "owl:Class"
-  }, {
-    "id" : "147",
-    "type" : "owl:Class"
-  }, {
-    "id" : "152",
-    "type" : "owl:Class"
-  }, {
-    "id" : "130",
-    "type" : "owl:Class"
-  }, {
-    "id" : "50",
-    "type" : "owl:Class"
-  }, {
-    "id" : "84",
-    "type" : "owl:Class"
-  }, {
-    "id" : "28",
-    "type" : "owl:Class"
-  }, {
-    "id" : "169",
-    "type" : "owl:Class"
-  }, {
-    "id" : "171",
-    "type" : "owl:Class"
-  }, {
-    "id" : "118",
-    "type" : "owl:Class"
-  }, {
-    "id" : "180",
-    "type" : "owl:Class"
-  }, {
-    "id" : "123",
-    "type" : "owl:Class"
-  }, {
-    "id" : "195",
-    "type" : "owl:Class"
-  }, {
-    "id" : "91",
-    "type" : "owl:Class"
-  }, {
-    "id" : "15",
-    "type" : "owl:Class"
-  }, {
-    "id" : "77",
-    "type" : "owl:Class"
-  }, {
-    "id" : "205",
-    "type" : "owl:Class"
-  }, {
-    "id" : "142",
-    "type" : "owl:Class"
-  }, {
-    "id" : "98",
-    "type" : "owl:Class"
-  }, {
-    "id" : "107",
-    "type" : "owl:Class"
-  }, {
-    "id" : "204",
-    "type" : "owl:Class"
-  }, {
-    "id" : "89",
-    "type" : "owl:Class"
-  }, {
-    "id" : "173",
-    "type" : "owl:Class"
-  }, {
-    "id" : "214",
-    "type" : "owl:Class"
-  }, {
-    "id" : "233",
-    "type" : "owl:Class"
-  }, {
-    "id" : "234",
-    "type" : "owl:Class"
-  }, {
-    "id" : "200",
-    "type" : "owl:Class"
-  }, {
-    "id" : "179",
-    "type" : "owl:Class"
-  }, {
-    "id" : "51",
-    "type" : "owl:Class"
-  }, {
-    "id" : "242",
-    "type" : "owl:Class"
-  }, {
-    "id" : "20",
-    "type" : "owl:Class"
-  }, {
-    "id" : "258",
+    "id" : "0",
     "type" : "owl:Class"
   }, {
     "id" : "2",
     "type" : "owl:Class"
   }, {
-    "id" : "259",
+    "id" : "7",
     "type" : "owl:Class"
   }, {
-    "id" : "244",
+    "id" : "8",
     "type" : "owl:Class"
   }, {
-    "id" : "161",
-    "type" : "owl:Class"
-  }, {
-    "id" : "184",
-    "type" : "owl:Class"
-  }, {
-    "id" : "148",
-    "type" : "owl:Class"
-  }, {
-    "id" : "203",
-    "type" : "owl:Class"
-  }, {
-    "id" : "25",
-    "type" : "owl:Class"
-  }, {
-    "id" : "74",
-    "type" : "owl:Class"
-  }, {
-    "id" : "274",
-    "type" : "owl:Class"
-  }, {
-    "id" : "279",
-    "type" : "owl:Class"
-  }, {
-    "id" : "172",
-    "type" : "owl:Class"
-  }, {
-    "id" : "108",
-    "type" : "owl:Class"
-  }, {
-    "id" : "111",
-    "type" : "owl:Class"
-  }, {
-    "id" : "289",
-    "type" : "owl:Class"
-  }, {
-    "id" : "102",
-    "type" : "owl:Class"
-  }, {
-    "id" : "307",
-    "type" : "owl:Class"
-  }, {
-    "id" : "181",
-    "type" : "owl:Class"
-  }, {
-    "id" : "21",
-    "type" : "owl:Class"
-  }, {
-    "id" : "163",
-    "type" : "owl:Class"
-  }, {
-    "id" : "201",
-    "type" : "owl:Class"
-  }, {
-    "id" : "46",
-    "type" : "owl:Class"
-  }, {
-    "id" : "34",
-    "type" : "owl:Class"
-  }, {
-    "id" : "109",
-    "type" : "owl:Class"
-  }, {
-    "id" : "23",
-    "type" : "owl:Class"
-  }, {
-    "id" : "33",
-    "type" : "owl:Class"
-  }, {
-    "id" : "310",
-    "type" : "owl:Class"
-  }, {
-    "id" : "167",
-    "type" : "owl:Class"
-  }, {
-    "id" : "144",
-    "type" : "owl:Class"
-  }, {
-    "id" : "275",
-    "type" : "owl:Class"
-  }, {
-    "id" : "136",
-    "type" : "owl:Class"
-  }, {
-    "id" : "168",
-    "type" : "owl:Class"
-  }, {
-    "id" : "87",
-    "type" : "owl:Class"
-  }, {
-    "id" : "337",
-    "type" : "owl:Class"
-  }, {
-    "id" : "177",
-    "type" : "owl:Class"
-  }, {
-    "id" : "296",
-    "type" : "owl:Class"
-  }, {
-    "id" : "300",
-    "type" : "owl:Class"
-  }, {
-    "id" : "343",
-    "type" : "owl:Class"
-  }, {
-    "id" : "48",
+    "id" : "1",
     "type" : "owl:Class"
   }, {
     "id" : "13",
     "type" : "owl:Class"
   }, {
-    "id" : "208",
+    "id" : "18",
     "type" : "owl:Class"
   }, {
-    "id" : "80",
+    "id" : "23",
     "type" : "owl:Class"
   }, {
-    "id" : "95",
+    "id" : "34",
     "type" : "owl:Class"
   }, {
-    "id" : "192",
-    "type" : "owl:Class"
-  }, {
-    "id" : "239",
-    "type" : "owl:Class"
-  }, {
-    "id" : "222",
-    "type" : "owl:Class"
-  }, {
-    "id" : "344",
-    "type" : "owl:Class"
-  }, {
-    "id" : "226",
-    "type" : "owl:Class"
-  }, {
-    "id" : "39",
-    "type" : "owl:Class"
-  }, {
-    "id" : "78",
-    "type" : "owl:Class"
-  }, {
-    "id" : "94",
-    "type" : "owl:Class"
-  }, {
-    "id" : "194",
-    "type" : "owl:Class"
-  }, {
-    "id" : "306",
-    "type" : "owl:Class"
-  }, {
-    "id" : "231",
-    "type" : "owl:Class"
-  }, {
-    "id" : "67",
-    "type" : "owl:Class"
-  }, {
-    "id" : "65",
-    "type" : "owl:Class"
-  }, {
-    "id" : "293",
-    "type" : "owl:Class"
-  }, {
-    "id" : "348",
-    "type" : "owl:Class"
-  }, {
-    "id" : "255",
-    "type" : "owl:Class"
-  }, {
-    "id" : "7",
-    "type" : "owl:Class"
-  }, {
-    "id" : "349",
-    "type" : "owl:Class"
-  }, {
-    "id" : "188",
-    "type" : "owl:Class"
-  }, {
-    "id" : "81",
-    "type" : "owl:Class"
-  }, {
-    "id" : "19",
-    "type" : "owl:Class"
-  }, {
-    "id" : "213",
-    "type" : "owl:Class"
-  }, {
-    "id" : "350",
-    "type" : "owl:Class"
-  }, {
-    "id" : "326",
-    "type" : "owl:Class"
-  }, {
-    "id" : "53",
-    "type" : "owl:Class"
-  }, {
-    "id" : "175",
-    "type" : "owl:Class"
-  }, {
-    "id" : "106",
-    "type" : "owl:Class"
-  }, {
-    "id" : "88",
+    "id" : "35",
     "type" : "owl:Class"
   }, {
     "id" : "36",
     "type" : "owl:Class"
   }, {
-    "id" : "232",
+    "id" : "37",
     "type" : "owl:Class"
   }, {
-    "id" : "280",
+    "id" : "29",
     "type" : "owl:Class"
   }, {
-    "id" : "265",
+    "id" : "10",
     "type" : "owl:Class"
   }, {
-    "id" : "174",
+    "id" : "11",
     "type" : "owl:Class"
   }, {
-    "id" : "57",
+    "id" : "33",
     "type" : "owl:Class"
   }, {
-    "id" : "97",
-    "type" : "owl:Class"
-  }, {
-    "id" : "257",
-    "type" : "owl:Class"
-  }, {
-    "id" : "9",
-    "type" : "owl:Class"
-  }, {
-    "id" : "304",
-    "type" : "owl:Class"
-  }, {
-    "id" : "351",
-    "type" : "owl:Class"
-  }, {
-    "id" : "18",
-    "type" : "owl:Class"
-  }, {
-    "id" : "182",
-    "type" : "owl:Class"
-  }, {
-    "id" : "186",
-    "type" : "owl:Class"
-  }, {
-    "id" : "308",
-    "type" : "owl:Class"
-  }, {
-    "id" : "59",
-    "type" : "owl:Class"
-  }, {
-    "id" : "190",
-    "type" : "owl:Class"
-  }, {
-    "id" : "238",
-    "type" : "owl:Class"
-  }, {
-    "id" : "99",
-    "type" : "owl:Class"
-  }, {
-    "id" : "202",
-    "type" : "owl:Class"
-  }, {
-    "id" : "43",
-    "type" : "owl:Class"
-  }, {
-    "id" : "146",
-    "type" : "owl:Class"
-  }, {
-    "id" : "61",
-    "type" : "owl:Class"
-  }, {
-    "id" : "312",
-    "type" : "owl:Class"
-  }, {
-    "id" : "132",
-    "type" : "owl:Class"
-  }, {
-    "id" : "170",
-    "type" : "owl:Class"
-  }, {
-    "id" : "68",
-    "type" : "owl:Class"
-  }, {
-    "id" : "120",
-    "type" : "owl:Class"
-  }, {
-    "id" : "317",
-    "type" : "owl:Class"
-  }, {
-    "id" : "369",
-    "type" : "owl:Class"
-  }, {
-    "id" : "241",
+    "id" : "6",
     "type" : "owl:Class"
   }, {
     "id" : "5",
     "type" : "owl:Class"
   }, {
-    "id" : "16",
+    "id" : "56",
     "type" : "owl:Class"
   }, {
-    "id" : "209",
+    "id" : "55",
     "type" : "owl:Class"
   }, {
-    "id" : "86",
+    "id" : "41",
     "type" : "owl:Class"
   }, {
-    "id" : "121",
+    "id" : "38",
     "type" : "owl:Class"
   }, {
-    "id" : "247",
+    "id" : "45",
     "type" : "owl:Class"
   }, {
-    "id" : "155",
+    "id" : "12",
     "type" : "owl:Class"
   }, {
-    "id" : "104",
+    "id" : "25",
     "type" : "owl:Class"
   }, {
-    "id" : "150",
+    "id" : "17",
     "type" : "owl:Class"
   }, {
-    "id" : "113",
+    "id" : "9",
     "type" : "owl:Class"
   }, {
-    "id" : "35",
+    "id" : "63",
     "type" : "owl:Class"
   }, {
-    "id" : "224",
+    "id" : "49",
     "type" : "owl:Class"
   }, {
-    "id" : "230",
+    "id" : "43",
     "type" : "owl:Class"
   }, {
-    "id" : "114",
+    "id" : "27",
     "type" : "owl:Class"
   }, {
-    "id" : "72",
+    "id" : "3",
     "type" : "owl:Class"
   }, {
-    "id" : "295",
-    "type" : "owl:Class"
-  }, {
-    "id" : "125",
+    "id" : "39",
     "type" : "owl:Class"
   }, {
     "id" : "31",
     "type" : "owl:Class"
   }, {
-    "id" : "353",
+    "id" : "20",
     "type" : "owl:Class"
   }, {
-    "id" : "11",
+    "id" : "15",
     "type" : "owl:Class"
   }, {
-    "id" : "63",
-    "type" : "owl:Class"
-  }, {
-    "id" : "93",
-    "type" : "owl:Class"
-  }, {
-    "id" : "249",
-    "type" : "owl:Class"
-  }, {
-    "id" : "154",
-    "type" : "owl:Class"
-  }, {
-    "id" : "27",
-    "type" : "owl:Class"
-  }, {
-    "id" : "159",
-    "type" : "owl:Class"
-  }, {
-    "id" : "4",
-    "type" : "owl:Class"
-  }, {
-    "id" : "228",
-    "type" : "owl:Class"
-  }, {
-    "id" : "79",
-    "type" : "owl:Class"
-  }, {
-    "id" : "96",
-    "type" : "owl:Class"
-  }, {
-    "id" : "197",
-    "type" : "owl:Class"
-  }, {
-    "id" : "302",
-    "type" : "owl:Class"
-  }, {
-    "id" : "37",
-    "type" : "owl:Class"
-  }, {
-    "id" : "236",
-    "type" : "owl:Class"
-  }, {
-    "id" : "229",
-    "type" : "owl:Class"
-  }, {
-    "id" : "211",
-    "type" : "owl:Class"
-  }, {
-    "id" : "70",
+    "id" : "46",
     "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
-    "iri" : "http://www.exemple.org/ontologies/Things#c180--1",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
+    "iri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016#c8--2",
+    "baseIri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "c180--1",
-      "en" : "Q11RawMaterials"
-    },
-    "subClasses" : [ "18", "19", "20", "21" ],
-    "comment" : {
-      "en" : "Q11 RAW MATERIALS POLICY & LEGAL FRAMEWORK"
-    },
-    "id" : "17"
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c89--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c89--4",
-      "en" : "MetallicWaste-"
+      "IRI-based" : "c8--2",
+      "en" : "Sn"
     },
     "comment" : {
-      "en" : "Metallic waste - ferrous"
+      "en" : "Sn"
     },
-    "id" : "24",
-    "superClasses" : [ "25" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c66--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c66--4",
-      "en" : "CompanyLevel"
-    },
-    "comment" : {
-      "en" : "Company level"
-    },
-    "id" : "26",
-    "superClasses" : [ "27" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c43--3",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c43--3",
-      "en" : "Construction(detailedEngineering,"
-    },
-    "subClasses" : [ "28", "29" ],
-    "comment" : {
-      "en" : "Construction (detailed engineering, tenders, preparatory mine workings, infrastructure…)"
-    },
-    "id" : "1",
-    "superClasses" : [ "2" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c202--2",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c202--2",
-      "en" : "ForesightOnThe"
-    },
-    "comment" : {
-      "en" : "Foresight on the supply of raw materials"
-    },
-    "id" : "30",
-    "superClasses" : [ "31" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c20--3",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c20--3",
-      "en" : "ResourceAssessment"
-    },
-    "subClasses" : [ "34", "35", "36", "37" ],
-    "comment" : {
-      "en" : "Resource assessment"
-    },
-    "id" : "32",
-    "superClasses" : [ "33" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c145--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c145--4",
-      "en" : "IndividualCommodities"
-    },
-    "comment" : {
-      "en" : "Individual commodities"
-    },
-    "id" : "38",
-    "superClasses" : [ "39" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c168--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c168--4",
-      "en" : "GlobalLevel"
-    },
-    "comment" : {
-      "en" : "Global Level"
-    },
-    "id" : "40",
-    "superClasses" : [ "41" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c122--5",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c122--5",
-      "en" : "CommunicationDevices"
-    },
-    "comment" : {
-      "en" : "Communication devices"
-    },
-    "id" : "44",
-    "superClasses" : [ "16" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c179--2",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c179--2",
-      "en" : "SecondarySector"
-    },
-    "comment" : {
-      "en" : "Secondary sector"
-    },
-    "id" : "47",
-    "superClasses" : [ "48" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c133--3",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c133--3",
-      "en" : "SupplyRisk"
-    },
-    "subClasses" : [ "56", "57" ],
-    "comment" : {
-      "en" : "Supply risk"
-    },
-    "id" : "54",
-    "superClasses" : [ "55" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c192--2",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c192--2",
-      "en" : "RemoteSensing"
-    },
-    "comment" : {
-      "en" : "Remote sensing"
-    },
-    "id" : "73",
-    "superClasses" : [ "74" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c90--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c90--4",
-      "en" : "MetallicWaste-"
-    },
-    "comment" : {
-      "en" : "Metallic waste - non-ferrous"
-    },
-    "id" : "75",
-    "superClasses" : [ "25" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c77--3",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c77--3",
-      "en" : "Manufacturing/industrialWaste"
-    },
-    "subClasses" : [ "78", "79", "80", "81", "82" ],
-    "comment" : {
-      "en" : "Manufacturing/Industrial Waste"
-    },
-    "id" : "76",
-    "superClasses" : [ "77" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c31--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c31--4",
-      "en" : "MineWorkingsReconnaissance"
-    },
-    "comment" : {
-      "en" : "Mine workings reconnaissance"
-    },
-    "id" : "83",
-    "superClasses" : [ "84" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c134--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c134--4",
-      "en" : "OverviewAnalyses"
-    },
-    "subClasses" : [ "87", "88", "89" ],
-    "comment" : {
-      "en" : "Overview analyses"
-    },
-    "id" : "56",
-    "superClasses" : [ "54" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c111--5",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c111--5",
-      "en" : "IndustrialAndCommercial"
-    },
-    "comment" : {
-      "en" : "Industrial and commercial"
-    },
-    "id" : "90",
-    "superClasses" : [ "91" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c67--1",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c67--1",
-      "en" : "Q10SecondaryResources"
-    },
-    "subClasses" : [ "77", "93", "94", "95", "96", "97" ],
-    "comment" : {
-      "en" : "Q10 SECONDARY RESOURCES"
-    },
-    "id" : "92"
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c78--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c78--4",
-      "en" : "Smelter/refiningScrapAnd"
-    },
-    "subClasses" : [ "98", "99", "100" ],
-    "comment" : {
-      "en" : "Smelter/refining scrap and residues"
-    },
-    "id" : "82",
-    "superClasses" : [ "76" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c55--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c55--4",
-      "en" : "EuropeanLevel"
-    },
-    "comment" : {
-      "en" : "European level"
-    },
-    "id" : "101",
-    "superClasses" : [ "102" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c19--5",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c19--5",
-      "en" : "CoreDrilling"
-    },
-    "comment" : {
-      "en" : "Core drilling"
-    },
-    "id" : "103",
-    "superClasses" : [ "104" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c156--3",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c156--3",
-      "en" : "Exploration"
-    },
-    "comment" : {
-      "en" : "Exploration"
-    },
-    "id" : "105",
-    "superClasses" : [ "106" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c44--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c44--4",
-      "en" : "TypeOfMining"
-    },
-    "comment" : {
-      "en" : "Type of mining operation (In-situ ore winning, open cast mining, underground stoping)"
-    },
-    "id" : "29",
+    "id" : "0",
     "superClasses" : [ "1" ]
   }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c167--3",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
+    "iri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016#c15--2",
+    "baseIri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "c167--3",
-      "en" : "Geographical"
-    },
-    "subClasses" : [ "108", "109", "40" ],
-    "comment" : {
-      "en" : "Geographical"
-    },
-    "id" : "41",
-    "superClasses" : [ "107" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c100--5",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c100--5",
-      "en" : "IndustrialAndCommercial"
+      "IRI-based" : "c15--2",
+      "en" : "Nb"
     },
     "comment" : {
-      "en" : "Industrial and commercial"
+      "en" : "Nb"
     },
-    "id" : "110",
-    "superClasses" : [ "111" ]
+    "id" : "2",
+    "superClasses" : [ "3" ]
   }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c33--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c33--4",
-      "en" : "TrialTests"
-    },
-    "comment" : {
-      "en" : "Trial tests"
-    },
-    "id" : "115",
-    "superClasses" : [ "84" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c155--3",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c155--3",
-      "en" : "Reserves"
-    },
-    "comment" : {
-      "en" : "Reserves"
-    },
-    "id" : "116",
-    "superClasses" : [ "106" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c132--2",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c132--2",
-      "en" : "CriticalityAssessment"
-    },
-    "subClasses" : [ "54", "39" ],
-    "comment" : {
-      "en" : "Criticality assessment"
-    },
-    "id" : "55",
-    "superClasses" : [ "121" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c178--3",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c178--3",
-      "en" : "PrimaryManufacturing/metallurgy"
-    },
-    "comment" : {
-      "en" : "Primary manufacturing/metallurgy"
-    },
-    "id" : "124",
-    "superClasses" : [ "125" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c193--2",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c193--2",
-      "en" : "GeologicalMapping"
-    },
-    "comment" : {
-      "en" : "Geological mapping"
-    },
-    "id" : "126",
-    "superClasses" : [ "74" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c30--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c30--4",
-      "en" : "CoreDrillingSystematic"
-    },
-    "comment" : {
-      "en" : "Core drilling systematic"
-    },
-    "id" : "128",
-    "superClasses" : [ "84" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c91--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c91--4",
-      "en" : "MetallicWaste-"
-    },
-    "comment" : {
-      "en" : "Metallic waste - mixed"
-    },
-    "id" : "133",
-    "superClasses" : [ "25" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c80--5",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c80--5",
-      "en" : "MetallicWaste-"
-    },
-    "comment" : {
-      "en" : "Metallic waste - non-ferrous"
-    },
-    "id" : "100",
-    "superClasses" : [ "82" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c144--5",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c144--5",
-      "en" : "OtherReports(e.g.,"
-    },
-    "comment" : {
-      "en" : "Other reports (e.g., Yale, etc.)"
-    },
-    "id" : "138",
-    "superClasses" : [ "114" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c8--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c8--4",
-      "en" : "RegionalHeavyMineral"
-    },
-    "comment" : {
-      "en" : "Regional heavy mineral sampling"
-    },
-    "id" : "147",
-    "superClasses" : [ "148" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c56--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c56--4",
-      "en" : "NationalLevel"
-    },
-    "comment" : {
-      "en" : "National level"
-    },
-    "id" : "152",
-    "superClasses" : [ "102" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c18--5",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c18--5",
-      "en" : "PercussionDrilling"
-    },
-    "comment" : {
-      "en" : "Percussion drilling"
-    },
-    "id" : "130",
-    "superClasses" : [ "104" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c109--5",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c109--5",
-      "en" : "Municipal"
-    },
-    "comment" : {
-      "en" : "Municipal"
-    },
-    "id" : "50",
-    "superClasses" : [ "51" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c29--3",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c29--3",
-      "en" : "OreDepositEvaluation"
-    },
-    "subClasses" : [ "115", "128", "83", "168" ],
-    "comment" : {
-      "en" : "Ore deposit evaluation"
-    },
-    "id" : "84",
-    "superClasses" : [ "33" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c45--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c45--4",
-      "en" : "TypeOfMineral"
-    },
-    "comment" : {
-      "en" : "Type of mineral processing"
-    },
-    "id" : "28",
-    "superClasses" : [ "1" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c166--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c166--4",
-      "en" : "NaceClassificationSystem"
-    },
-    "comment" : {
-      "en" : "NACE classification system"
-    },
-    "id" : "169",
-    "superClasses" : [ "170" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c9--3",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c9--3",
-      "en" : "DetailedSurfaceExploration"
-    },
-    "subClasses" : [ "172", "173", "174", "175" ],
-    "comment" : {
-      "en" : "Detailed surface exploration"
-    },
-    "id" : "171",
-    "superClasses" : [ "33" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c143--5",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c143--5",
-      "en" : "BgsRiskList"
-    },
-    "comment" : {
-      "en" : "BGS risk list"
-    },
-    "id" : "118",
-    "superClasses" : [ "114" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c34--2",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
+    "iri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016#c34--2",
+    "baseIri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016",
     "instances" : 0,
     "label" : {
       "IRI-based" : "c34--2",
-      "en" : "FeasibilityStudy"
+      "en" : "Ta"
     },
-    "subClasses" : [ "182", "68" ],
     "comment" : {
-      "en" : "Feasibility study"
-    },
-    "id" : "180",
-    "superClasses" : [ "181" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c57--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c57--4",
-      "en" : "RegionalLevel"
-    },
-    "comment" : {
-      "en" : "Regional level"
-    },
-    "id" : "123",
-    "superClasses" : [ "102" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c177--3",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c177--3",
-      "en" : "Processing"
-    },
-    "comment" : {
-      "en" : "Processing"
-    },
-    "id" : "195",
-    "superClasses" : [ "125" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c110--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c110--4",
-      "en" : "Inert"
-    },
-    "subClasses" : [ "201", "90" ],
-    "comment" : {
-      "en" : "Inert"
-    },
-    "id" : "91",
-    "superClasses" : [ "200" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c121--5",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c121--5",
-      "en" : "Heating,LightingAnd"
-    },
-    "comment" : {
-      "en" : "Heating, lighting and small/large electrical appliances"
-    },
-    "id" : "15",
-    "superClasses" : [ "16" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c68--2",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c68--2",
-      "en" : "HibernatingStocks"
-    },
-    "subClasses" : [ "202", "200", "203", "204", "76", "25" ],
-    "comment" : {
-      "en" : "Hibernating stocks"
-    },
-    "id" : "77",
-    "superClasses" : [ "92" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c203--2",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c203--2",
-      "en" : "ForesightOnThe"
-    },
-    "comment" : {
-      "en" : "Foresight on the demand of raw materials"
-    },
-    "id" : "205",
-    "superClasses" : [ "31" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c194--2",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c194--2",
-      "en" : "Other(rockCharacterization,"
-    },
-    "comment" : {
-      "en" : "Other (rock characterization, geochemistry, 3D models, etc.)"
-    },
-    "id" : "142",
-    "superClasses" : [ "74" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c79--5",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c79--5",
-      "en" : "MetallicWaste-"
-    },
-    "comment" : {
-      "en" : "Metallic waste - ferrous"
-    },
-    "id" : "98",
-    "superClasses" : [ "82" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c159--2",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c159--2",
-      "en" : "Demand"
-    },
-    "subClasses" : [ "214", "170", "41" ],
-    "comment" : {
-      "en" : "Demand"
-    },
-    "id" : "107",
-    "superClasses" : [ "213" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c113--3",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c113--3",
-      "en" : "ObsoleteInfrastructure"
-    },
-    "comment" : {
-      "en" : "Obsolete infrastructure"
-    },
-    "id" : "204",
-    "superClasses" : [ "77" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c136--5",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c136--5",
-      "en" : "BgsRiskList"
-    },
-    "comment" : {
-      "en" : "BGS risk list"
-    },
-    "id" : "89",
-    "superClasses" : [ "56" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c11--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c11--4",
-      "en" : "DetailedGeochemistry"
-    },
-    "comment" : {
-      "en" : "Detailed geochemistry"
-    },
-    "id" : "173",
-    "superClasses" : [ "171" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c160--3",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c160--3",
-      "en" : "Commodity"
-    },
-    "subClasses" : [ "229", "230", "231", "232" ],
-    "comment" : {
-      "en" : "Commodity"
-    },
-    "id" : "214",
-    "superClasses" : [ "107" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c63--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c63--4",
-      "en" : "NationalLevel"
-    },
-    "comment" : {
-      "en" : "National level"
-    },
-    "id" : "233",
-    "superClasses" : [ "27" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c171--2",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c171--2",
-      "en" : "CommodityPrices"
-    },
-    "comment" : {
-      "en" : "Commodity prices"
-    },
-    "id" : "234",
-    "superClasses" : [ "213" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c98--3",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c98--3",
-      "en" : "WasteDepositedIn"
-    },
-    "subClasses" : [ "111", "51", "91" ],
-    "comment" : {
-      "en" : "Waste deposited in landfills"
-    },
-    "id" : "200",
-    "superClasses" : [ "77" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c148--2",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c148--2",
-      "en" : "ImportDependance"
-    },
-    "comment" : {
-      "en" : "Import dependance"
-    },
-    "id" : "179",
-    "superClasses" : [ "121" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c102--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c102--4",
-      "en" : "Non-hazardous"
-    },
-    "subClasses" : [ "86", "50", "53", "59", "61", "63", "65" ],
-    "comment" : {
-      "en" : "Non-hazardous"
-    },
-    "id" : "51",
-    "superClasses" : [ "200" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c52--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c52--4",
-      "en" : "Other"
-    },
-    "comment" : {
-      "en" : "Other"
-    },
-    "id" : "242",
-    "superClasses" : [ "154" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c182--2",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c182--2",
-      "en" : "EnvironmentalLegislationAnd"
-    },
-    "comment" : {
-      "en" : "Environmental legislation and policy"
-    },
-    "id" : "20",
-    "superClasses" : [ "17" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c64--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c64--4",
-      "en" : "RegionalLevel"
-    },
-    "comment" : {
-      "en" : "Regional level"
-    },
-    "id" : "258",
-    "superClasses" : [ "27" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c41--2",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c41--2",
-      "en" : "MineDevelopment&"
-    },
-    "subClasses" : [ "43", "46", "1" ],
-    "comment" : {
-      "en" : "Mine development & operation"
-    },
-    "id" : "2",
-    "superClasses" : [ "181" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c22--5",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c22--5",
-      "en" : "PercussionDrillingAssessment"
-    },
-    "comment" : {
-      "en" : "Percussion drilling assessment"
-    },
-    "id" : "259",
-    "superClasses" : [ "34" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c189--2",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c189--2",
-      "en" : "CarbonTrading"
-    },
-    "comment" : {
-      "en" : "Carbon trading"
-    },
-    "id" : "244",
-    "superClasses" : [ "239" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c97--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c97--4",
-      "en" : "BatteriesAndAccumulator"
-    },
-    "comment" : {
-      "en" : "Batteries and accumulator wastes"
-    },
-    "id" : "161",
-    "superClasses" : [ "25" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c147--2",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c147--2",
-      "en" : "Substitution"
-    },
-    "comment" : {
-      "en" : "Substitution"
-    },
-    "id" : "184",
-    "superClasses" : [ "121" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c2--3",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c2--3",
-      "en" : "RegionalReconnaissance"
-    },
-    "subClasses" : [ "188", "190", "192", "194", "197", "147" ],
-    "comment" : {
-      "en" : "Regional reconnaissance"
-    },
-    "id" : "148",
-    "superClasses" : [ "33" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c114--3",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c114--3",
-      "en" : "ObsoleteElectronics"
-    },
-    "comment" : {
-      "en" : "Obsolete electronics"
-    },
-    "id" : "203",
-    "superClasses" : [ "77" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c86--3",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c86--3",
-      "en" : "End-of-lifeWaste"
-    },
-    "subClasses" : [ "186", "159", "161", "163", "75", "24", "167", "150", "133" ],
-    "comment" : {
-      "en" : "End-of-life waste"
-    },
-    "id" : "25",
-    "superClasses" : [ "77" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c190--1",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c190--1",
-      "en" : "Q13Geodata&"
-    },
-    "subClasses" : [ "73", "126", "142", "144" ],
-    "comment" : {
-      "en" : "Q13 GEODATA & SERVICES FOR MINING AND EXPLORATION"
-    },
-    "id" : "74"
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c125--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c125--4",
-      "en" : "StocksInBuildings?"
-    },
-    "comment" : {
-      "en" : "Stocks in buildings?"
-    },
-    "id" : "274",
-    "superClasses" : [ "275" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c75--5",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c75--5",
-      "en" : "ProcessingOfNon-metalliferous"
-    },
-    "comment" : {
-      "en" : "Processing of non-metalliferous minerals"
-    },
-    "id" : "279",
-    "superClasses" : [ "280" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c10--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c10--4",
-      "en" : "DetailedGeology"
-    },
-    "comment" : {
-      "en" : "Detailed geology"
-    },
-    "id" : "172",
-    "superClasses" : [ "171" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c170--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c170--4",
-      "en" : "IndividualCountries"
-    },
-    "comment" : {
-      "en" : "Individual countries"
-    },
-    "id" : "108",
-    "superClasses" : [ "41" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c99--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c99--4",
-      "en" : "Hazardous"
-    },
-    "subClasses" : [ "110", "136" ],
-    "comment" : {
-      "en" : "Hazardous"
-    },
-    "id" : "111",
-    "superClasses" : [ "200" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c76--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c76--4",
-      "en" : "DrillingMudsAnd"
-    },
-    "comment" : {
-      "en" : "Drilling muds and other drilling wastes"
-    },
-    "id" : "289",
-    "superClasses" : [ "202" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c53--3",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c53--3",
-      "en" : "StatisticalData"
-    },
-    "subClasses" : [ "120", "123", "295", "101", "152", "296" ],
-    "comment" : {
-      "en" : "Statistical data"
-    },
-    "id" : "102",
-    "superClasses" : [ "155" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c158--3",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c158--3",
-      "en" : "In-useStocks"
-    },
-    "comment" : {
-      "en" : "In-use stocks"
-    },
-    "id" : "307",
-    "superClasses" : [ "106" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c0--1",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c0--1",
-      "en" : "PrimaryResources"
-    },
-    "subClasses" : [ "33", "155", "180", "2" ],
-    "comment" : {
-      "en" : "PRIMARY RESOURCES"
-    },
-    "id" : "181"
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c181--2",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c181--2",
-      "en" : "LandUsePolicy"
-    },
-    "comment" : {
-      "en" : "Land use policy"
-    },
-    "id" : "21",
-    "superClasses" : [ "17" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c88--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c88--4",
-      "en" : "OtherMineralWaste"
-    },
-    "comment" : {
-      "en" : "Other mineral waste"
-    },
-    "id" : "163",
-    "superClasses" : [ "25" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c112--5",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c112--5",
-      "en" : "Municipal"
-    },
-    "comment" : {
-      "en" : "Municipal"
-    },
-    "id" : "201",
-    "superClasses" : [ "91" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c42--3",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c42--3",
-      "en" : "Finance(salesContacts,"
-    },
-    "comment" : {
-      "en" : "Finance (sales contacts, audits, loan agreements…)"
-    },
-    "id" : "46",
-    "superClasses" : [ "2" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c21--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c21--4",
-      "en" : "DrillingAssessment"
-    },
-    "subClasses" : [ "308", "259" ],
-    "comment" : {
-      "en" : "Drilling assessment"
-    },
-    "id" : "34",
-    "superClasses" : [ "32" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c169--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c169--4",
-      "en" : "ContinentalLevel"
-    },
-    "comment" : {
-      "en" : "Continental level"
-    },
-    "id" : "109",
-    "superClasses" : [ "41" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c123--5",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c123--5",
-      "en" : "Recréation"
-    },
-    "comment" : {
-      "en" : "Recréation"
-    },
-    "id" : "23",
-    "superClasses" : [ "16" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c1--2",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c1--2",
-      "en" : "Q8MineralExploration"
-    },
-    "subClasses" : [ "148", "32", "226", "171", "84" ],
-    "comment" : {
-      "en" : "Q8 Mineral exploration "
-    },
-    "id" : "33",
-    "superClasses" : [ "181" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c157--3",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c157--3",
-      "en" : "Waste/Secondaries"
-    },
-    "comment" : {
-      "en" : "Waste / secondaries"
-    },
-    "id" : "310",
-    "superClasses" : [ "106" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c87--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c87--4",
-      "en" : "ConstructionAndDemolition"
-    },
-    "comment" : {
-      "en" : "Construction and demolition waste"
-    },
-    "id" : "167",
-    "superClasses" : [ "25" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c191--2",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c191--2",
-      "en" : "Boreholes"
-    },
-    "comment" : {
-      "en" : "Boreholes"
-    },
-    "id" : "144",
-    "superClasses" : [ "74" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c124--3",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c124--3",
-      "en" : "Non-metalStocks"
-    },
-    "subClasses" : [ "326", "274" ],
-    "comment" : {
-      "en" : "Non-metal stocks"
-    },
-    "id" : "275",
-    "superClasses" : [ "97" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c101--5",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c101--5",
-      "en" : "Municipal"
-    },
-    "comment" : {
-      "en" : "Municipal"
-    },
-    "id" : "136",
-    "superClasses" : [ "111" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c32--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c32--4",
-      "en" : "GeostatisticalEstimates"
-    },
-    "comment" : {
-      "en" : "Geostatistical estimates"
-    },
-    "id" : "168",
-    "superClasses" : [ "84" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c135--5",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c135--5",
-      "en" : "EuCriticalMaterials"
-    },
-    "comment" : {
-      "en" : "EU critical materials reports"
-    },
-    "id" : "87",
-    "superClasses" : [ "56" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c65--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c65--4",
-      "en" : "DepositLevel"
-    },
-    "comment" : {
-      "en" : "Deposit level"
-    },
-    "id" : "337",
-    "superClasses" : [ "27" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c146--2",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c146--2",
-      "en" : "MineralProfiles/factsheets"
-    },
-    "comment" : {
-      "en" : "Mineral profiles/factsheets"
-    },
-    "id" : "177",
-    "superClasses" : [ "121" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c54--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c54--4",
-      "en" : "GlobalLevel"
-    },
-    "comment" : {
-      "en" : "Global level"
-    },
-    "id" : "296",
-    "superClasses" : [ "102" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c151--3",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c151--3",
-      "en" : "Production"
-    },
-    "comment" : {
-      "en" : "Production"
-    },
-    "id" : "300",
-    "superClasses" : [ "106" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c95--5",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c95--5",
-      "en" : "ObsoleteElectrics&"
-    },
-    "comment" : {
-      "en" : "Obsolete electrics & electronics"
-    },
-    "id" : "343",
-    "superClasses" : [ "159" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c174--1",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c174--1",
-      "en" : "Q9IndustryStructure"
-    },
-    "subClasses" : [ "47", "125" ],
-    "comment" : {
-      "en" : "Q9 INDUSTRY STRUCTURE"
-    },
-    "id" : "48"
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c197--2",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c197--2",
-      "en" : "InternationalReportingOf"
-    },
-    "comment" : {
-      "en" : "International reporting of resources and reserves"
-    },
-    "id" : "13",
-    "superClasses" : [ "5" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c72--5",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c72--5",
-      "en" : "MineralNon-metalliferousExcavation"
-    },
-    "comment" : {
-      "en" : "Mineral non-metalliferous excavation"
-    },
-    "id" : "208",
-    "superClasses" : [ "209" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c84--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c84--4",
-      "en" : "MineralWasteFrom"
-    },
-    "comment" : {
-      "en" : "Mineral waste from waste treatment and stabilised waste"
-    },
-    "id" : "80",
-    "superClasses" : [ "76" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c127--2",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c127--2",
-      "en" : "KeyIndicators(product"
-    },
-    "comment" : {
-      "en" : "Key indicators (product lifespan, recovery rates)"
-    },
-    "id" : "95",
-    "superClasses" : [ "92" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c4--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c4--4",
-      "en" : "2dPredictiveMapping"
-    },
-    "comment" : {
-      "en" : "2D predictive mapping"
-    },
-    "id" : "192",
-    "superClasses" : [ "148" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c185--1",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c185--1",
-      "en" : "Q12EnvironmentalConsiderations"
-    },
-    "subClasses" : [ "244", "249", "247", "238" ],
-    "comment" : {
-      "en" : "Q12 ENVIRONMENTAL CONSIDERATIONS"
-    },
-    "id" : "239"
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c116--3",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c116--3",
-      "en" : "MetalStocks"
-    },
-    "subClasses" : [ "236", "241", "224", "16" ],
-    "comment" : {
-      "en" : "Metal stocks"
-    },
-    "id" : "222",
-    "superClasses" : [ "97" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c49--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c49--4",
-      "en" : "CrirscoFramework(e.g.,"
-    },
-    "comment" : {
-      "en" : "CRIRSCO framework (e.g., JORC, PERC, NI43-101)"
-    },
-    "id" : "344",
-    "superClasses" : [ "154" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c14--3",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c14--3",
-      "en" : "SubsurfaceExploration"
-    },
-    "subClasses" : [ "228", "104" ],
-    "comment" : {
-      "en" : "Subsurface exploration"
-    },
-    "id" : "226",
-    "superClasses" : [ "33" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c140--3",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c140--3",
-      "en" : "EconomicImportance"
-    },
-    "subClasses" : [ "38", "114" ],
-    "comment" : {
-      "en" : "Economic Importance"
-    },
-    "id" : "39",
-    "superClasses" : [ "55" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c83--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c83--4",
-      "en" : "DredgingSpoils"
-    },
-    "comment" : {
-      "en" : "Dredging spoils"
-    },
-    "id" : "78",
-    "superClasses" : [ "76" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c128--2",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c128--2",
-      "en" : "ProductDeclaration"
-    },
-    "comment" : {
-      "en" : "Product declaration"
-    },
-    "id" : "94",
-    "superClasses" : [ "92" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c5--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c5--4",
-      "en" : "RegionalGeology"
-    },
-    "comment" : {
-      "en" : "Regional geology"
-    },
-    "id" : "194",
-    "superClasses" : [ "148" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c25--5",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c25--5",
-      "en" : "3dGeologicalModel"
-    },
-    "comment" : {
-      "en" : "3D geological model"
-    },
-    "id" : "306",
-    "superClasses" : [ "36" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c162--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c162--4",
-      "en" : "IndustrialMinerals"
-    },
-    "comment" : {
-      "en" : "Industrial minerals"
-    },
-    "id" : "231",
-    "superClasses" : [ "214" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c38--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c38--4",
-      "en" : "Grade-tonnageRelationshipsOn"
-    },
-    "subClasses" : [ "265" ],
-    "comment" : {
-      "en" : "Grade-tonnage relationships on blocks"
-    },
-    "id" : "67",
-    "superClasses" : [ "68" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c105--5",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c105--5",
-      "en" : "IndustrialAndBidon3"
-    },
-    "comment" : {
-      "en" : "Industrial and bidon3"
-    },
-    "id" : "65",
-    "superClasses" : [ "51" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c139--5",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c139--5",
-      "en" : "PhysicalScarcity"
-    },
-    "comment" : {
-      "en" : "Physical scarcity"
-    },
-    "id" : "293",
-    "superClasses" : [ "57" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c61--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c61--4",
-      "en" : "GlobalLevel"
-    },
-    "comment" : {
-      "en" : "Global level"
-    },
-    "id" : "348",
-    "superClasses" : [ "27" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c173--2",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c173--2",
-      "en" : "EnvironmentalImpact"
-    },
-    "comment" : {
-      "en" : "Environmental impact"
-    },
-    "id" : "255",
-    "superClasses" : [ "213" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c198--2",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c198--2",
-      "en" : "CorporateSocialResponsability"
-    },
-    "comment" : {
-      "en" : "Corporate social responsability"
+      "en" : "Ta"
     },
     "id" : "7",
-    "superClasses" : [ "5" ]
+    "superClasses" : [ "6" ]
   }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c50--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
+    "iri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016#c11--2",
+    "baseIri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "c50--4",
-      "en" : "Unfc"
+      "IRI-based" : "c11--2",
+      "en" : "Cr"
     },
     "comment" : {
-      "en" : "UNFC"
+      "en" : "Cr"
     },
-    "id" : "349",
-    "superClasses" : [ "154" ]
+    "id" : "8",
+    "superClasses" : [ "3" ]
   }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c3--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
+    "iri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016#c4--1",
+    "baseIri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "c3--4",
-      "en" : "EstimatingUndiscoveredResources"
+      "IRI-based" : "c4--1",
+      "en" : "BaseMetals(s.l.)"
     },
+    "subClasses" : [ "9", "0", "10", "11", "12" ],
     "comment" : {
-      "en" : "Estimating undiscovered resources (e.g. USGS methods)"
+      "en" : "Base metals (s.l.)"
     },
-    "id" : "188",
-    "superClasses" : [ "148" ]
+    "id" : "1"
   }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c85--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
+    "iri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016#c29--2",
+    "baseIri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "c85--4",
-      "en" : "GlassWaste"
+      "IRI-based" : "c29--2",
+      "en" : "Rb"
     },
     "comment" : {
-      "en" : "Glass waste"
+      "en" : "Rb"
     },
-    "id" : "81",
-    "superClasses" : [ "76" ]
+    "id" : "13",
+    "superClasses" : [ "6" ]
   }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c184--2",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
+    "iri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016#c25--2",
+    "baseIri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "c184--2",
-      "en" : "OtherIndirectPolicy"
+      "IRI-based" : "c25--2",
+      "en" : "Hg"
     },
     "comment" : {
-      "en" : "Other indirect policy"
-    },
-    "id" : "19",
-    "superClasses" : [ "17" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c149--1",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c149--1",
-      "en" : "Q7RawMaterials"
-    },
-    "subClasses" : [ "234", "107", "257", "255", "106" ],
-    "comment" : {
-      "en" : "Q7 RAW MATERIALS ECONOMICS"
-    },
-    "id" : "213"
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c62--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c62--4",
-      "en" : "EuropeanLevel"
-    },
-    "comment" : {
-      "en" : "European level"
-    },
-    "id" : "350",
-    "superClasses" : [ "27" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c126--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c126--4",
-      "en" : "StocksInInfrastructures1"
-    },
-    "comment" : {
-      "en" : "Stocks in infrastructures1"
-    },
-    "id" : "326",
-    "superClasses" : [ "275" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c103--5",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c103--5",
-      "en" : "IndustrialAndBidon"
-    },
-    "comment" : {
-      "en" : "Industrial and bidon"
-    },
-    "id" : "53",
-    "superClasses" : [ "51" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c13--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c13--4",
-      "en" : "DetailedHeavyMineral"
-    },
-    "comment" : {
-      "en" : "Detailed heavy mineral sampling"
-    },
-    "id" : "175",
-    "superClasses" : [ "171" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c150--2",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c150--2",
-      "en" : "RawMaterialsStatistics"
-    },
-    "subClasses" : [ "105", "116", "317", "312", "310", "307", "302", "300" ],
-    "comment" : {
-      "en" : "Raw materials statistics"
-    },
-    "id" : "106",
-    "superClasses" : [ "213" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c137--5",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c137--5",
-      "en" : "OtherReports(e.g.,"
-    },
-    "comment" : {
-      "en" : "Other reports (e.g., Yale, etc.)"
-    },
-    "id" : "88",
-    "superClasses" : [ "56" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c24--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c24--4",
-      "en" : "GeologicalInterpretation"
-    },
-    "subClasses" : [ "306" ],
-    "comment" : {
-      "en" : "Geological interpretation"
-    },
-    "id" : "36",
-    "superClasses" : [ "32" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c161--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c161--4",
-      "en" : "Metal"
-    },
-    "comment" : {
-      "en" : "Metal"
-    },
-    "id" : "232",
-    "superClasses" : [ "214" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c73--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c73--4",
-      "en" : "Tailings"
-    },
-    "subClasses" : [ "304", "279" ],
-    "comment" : {
-      "en" : "Tailings"
-    },
-    "id" : "280",
-    "superClasses" : [ "202" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c39--5",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c39--5",
-      "en" : "3d'bloc'model"
-    },
-    "comment" : {
-      "en" : "3D 'bloc'model"
-    },
-    "id" : "265",
-    "superClasses" : [ "67" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c12--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c12--4",
-      "en" : "DetailedGeophysics"
-    },
-    "comment" : {
-      "en" : "Detailed geophysics"
-    },
-    "id" : "174",
-    "superClasses" : [ "171" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c138--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c138--4",
-      "en" : "IndividualCommodities"
-    },
-    "subClasses" : [ "293" ],
-    "comment" : {
-      "en" : "Individual commodities"
-    },
-    "id" : "57",
-    "superClasses" : [ "54" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c115--2",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c115--2",
-      "en" : "StocksInUse"
-    },
-    "subClasses" : [ "275", "222" ],
-    "comment" : {
-      "en" : "Stocks in use"
-    },
-    "id" : "97",
-    "superClasses" : [ "92" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c172--2",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c172--2",
-      "en" : "ProductionCost"
-    },
-    "comment" : {
-      "en" : "Production cost"
-    },
-    "id" : "257",
-    "superClasses" : [ "213" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c199--2",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c199--2",
-      "en" : "ToCommunities(e.g.,"
-    },
-    "comment" : {
-      "en" : "To communities (e.g., health and safety, environment amenities)"
-    },
-    "id" : "9",
-    "superClasses" : [ "5" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c74--5",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c74--5",
-      "en" : "ProcessingOfMetalliferous"
-    },
-    "comment" : {
-      "en" : "Processing of metalliferous minerals"
-    },
-    "id" : "304",
-    "superClasses" : [ "280" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c51--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c51--4",
-      "en" : "NationalReportingCode(s)"
-    },
-    "comment" : {
-      "en" : "National reporting code(s)"
-    },
-    "id" : "351",
-    "superClasses" : [ "154" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c183--2",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c183--2",
-      "en" : "MineralPolicy/strategy"
-    },
-    "comment" : {
-      "en" : "Mineral policy/strategy"
+      "en" : "Hg"
     },
     "id" : "18",
-    "superClasses" : [ "17" ]
+    "superClasses" : [ "6" ]
   }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c40--3",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
+    "iri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016#c21--2",
+    "baseIri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "c40--3",
-      "en" : "Economic(economicFeasibility,"
+      "IRI-based" : "c21--2",
+      "en" : "Cd"
     },
     "comment" : {
-      "en" : "Economic (economic feasibility, financial evaluation, bankable report...)"
+      "en" : "Cd"
     },
-    "id" : "182",
-    "superClasses" : [ "180" ]
+    "id" : "23",
+    "superClasses" : [ "6" ]
   }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c96--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
+    "iri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016#c12--2",
+    "baseIri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "c96--4",
-      "en" : "DiscardedVehicles"
+      "IRI-based" : "c12--2",
+      "en" : "Fe"
     },
     "comment" : {
-      "en" : "Discarded vehicles"
+      "en" : "Fe"
     },
-    "id" : "186",
-    "superClasses" : [ "25" ]
+    "id" : "34",
+    "superClasses" : [ "3" ]
   }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c23--5",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
+    "iri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016#c16--2",
+    "baseIri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "c23--5",
-      "en" : "CoreDrillingAssessment"
+      "IRI-based" : "c16--2",
+      "en" : "Ni"
     },
     "comment" : {
-      "en" : "Core drilling assessment"
-    },
-    "id" : "308",
-    "superClasses" : [ "34" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c104--5",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c104--5",
-      "en" : "IndustrialAndBidon2"
-    },
-    "comment" : {
-      "en" : "Industrial and bidon2"
-    },
-    "id" : "59",
-    "superClasses" : [ "51" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c7--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c7--4",
-      "en" : "RegionalGeochemistry"
-    },
-    "comment" : {
-      "en" : "Regional geochemistry"
-    },
-    "id" : "190",
-    "superClasses" : [ "148" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c188--2",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c188--2",
-      "en" : "IndirectResourceUse"
-    },
-    "comment" : {
-      "en" : "Indirect resource use"
-    },
-    "id" : "238",
-    "superClasses" : [ "239" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c81--5",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c81--5",
-      "en" : "MetallicWaste-"
-    },
-    "comment" : {
-      "en" : "Metallic waste - mixed"
-    },
-    "id" : "99",
-    "superClasses" : [ "82" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c69--3",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c69--3",
-      "en" : "MiningWastes"
-    },
-    "subClasses" : [ "289", "280", "209" ],
-    "comment" : {
-      "en" : "Mining wastes"
-    },
-    "id" : "202",
-    "superClasses" : [ "77" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c46--3",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c46--3",
-      "en" : "Operation(operationPlanning,"
-    },
-    "comment" : {
-      "en" : "Operation (operation planning, production tests, renewals, yearly reserves assessment…)"
-    },
-    "id" : "43",
-    "superClasses" : [ "2" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c17--5",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c17--5",
-      "en" : "AugerDrilling"
-    },
-    "comment" : {
-      "en" : "Auger drilling"
-    },
-    "id" : "146",
-    "superClasses" : [ "104" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c107--5",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c107--5",
-      "en" : "IndustrialAndBidon5"
-    },
-    "comment" : {
-      "en" : "Industrial and bidon5"
-    },
-    "id" : "61",
-    "superClasses" : [ "51" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c154--3",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c154--3",
-      "en" : "Resources"
-    },
-    "comment" : {
-      "en" : "Resources"
-    },
-    "id" : "312",
-    "superClasses" : [ "106" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c28--5",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c28--5",
-      "en" : "3d'bloc'model"
-    },
-    "comment" : {
-      "en" : "3D 'bloc'model"
-    },
-    "id" : "132",
-    "superClasses" : [ "35" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c165--3",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c165--3",
-      "en" : "IndustrialSector/"
-    },
-    "subClasses" : [ "169" ],
-    "comment" : {
-      "en" : "Industrial sector / end use application"
-    },
-    "id" : "170",
-    "superClasses" : [ "107" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c35--3",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c35--3",
-      "en" : "Technical"
-    },
-    "subClasses" : [ "67", "70", "72" ],
-    "comment" : {
-      "en" : "Technical"
-    },
-    "id" : "68",
-    "superClasses" : [ "180" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c58--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c58--4",
-      "en" : "DepositLevel"
-    },
-    "comment" : {
-      "en" : "Deposit level"
-    },
-    "id" : "120",
-    "superClasses" : [ "102" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c153--3",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c153--3",
-      "en" : "Exports"
-    },
-    "comment" : {
-      "en" : "Exports"
-    },
-    "id" : "317",
-    "superClasses" : [ "106" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c176--3",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c176--3",
-      "en" : "Mining"
-    },
-    "comment" : {
-      "en" : "Mining"
-    },
-    "id" : "369",
-    "superClasses" : [ "125" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c119--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c119--4",
-      "en" : "StocksInTransport"
-    },
-    "comment" : {
-      "en" : "Stocks in transport"
-    },
-    "id" : "241",
-    "superClasses" : [ "222" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c195--1",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c195--1",
-      "en" : "Q14InternationalReporting"
-    },
-    "subClasses" : [ "4", "7", "9", "11", "13" ],
-    "comment" : {
-      "en" : "Q14 INTERNATIONAL REPORTING AND SOCIAL RESPONSABILITY"
-    },
-    "id" : "5"
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c120--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c120--4",
-      "en" : "StocksInHousehold"
-    },
-    "subClasses" : [ "15", "23", "44" ],
-    "comment" : {
-      "en" : "Stocks in household appliances"
-    },
-    "id" : "16",
-    "superClasses" : [ "222" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c70--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c70--4",
-      "en" : "Rocks&Dumps"
-    },
-    "subClasses" : [ "208", "211" ],
-    "comment" : {
-      "en" : "Rocks & dumps"
-    },
-    "id" : "209",
-    "superClasses" : [ "202" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c108--5",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c108--5",
-      "en" : "IndustrialAndCommercial"
-    },
-    "comment" : {
-      "en" : "Industrial and commercial"
-    },
-    "id" : "86",
-    "superClasses" : [ "51" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c131--1",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c131--1",
-      "en" : "Q6CriticalRaw"
-    },
-    "subClasses" : [ "55", "177", "179", "184" ],
-    "comment" : {
-      "en" : "Q6 CRITICAL RAW MATERIALS"
-    },
-    "id" : "121"
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c187--2",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c187--2",
-      "en" : "EnvironmentalImpactOf"
-    },
-    "comment" : {
-      "en" : "Environmental impact of recycling activities"
-    },
-    "id" : "247",
-    "superClasses" : [ "239" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c47--2",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c47--2",
-      "en" : "ResourcesAndReserves"
-    },
-    "subClasses" : [ "154", "102", "27" ],
-    "comment" : {
-      "en" : "Resources and reserves"
-    },
-    "id" : "155",
-    "superClasses" : [ "181" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c16--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c16--4",
-      "en" : "Drilling"
-    },
-    "subClasses" : [ "146", "103", "130" ],
-    "comment" : {
-      "en" : "Drilling"
-    },
-    "id" : "104",
-    "superClasses" : [ "226" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c92--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c92--4",
-      "en" : "GlassWaste"
-    },
-    "comment" : {
-      "en" : "Glass waste"
-    },
-    "id" : "150",
-    "superClasses" : [ "25" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c142--5",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c142--5",
-      "en" : "EuCriticalMaterials"
-    },
-    "comment" : {
-      "en" : "EU critical materials reports"
-    },
-    "id" : "113",
-    "superClasses" : [ "114" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c27--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c27--4",
-      "en" : "ApproximateResourceCalculation"
-    },
-    "subClasses" : [ "132" ],
-    "comment" : {
-      "en" : "Approximate resource calculation"
+      "en" : "Ni"
     },
     "id" : "35",
-    "superClasses" : [ "32" ]
+    "superClasses" : [ "3" ]
   }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c117--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
+    "iri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016#c37--2",
+    "baseIri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "c117--4",
-      "en" : "StocksInBuildings"
+      "IRI-based" : "c37--2",
+      "en" : "Zr"
     },
     "comment" : {
-      "en" : "Stocks in buildings"
+      "en" : "Zr"
     },
-    "id" : "224",
-    "superClasses" : [ "222" ]
+    "id" : "36",
+    "superClasses" : [ "6" ]
   }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c164--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
+    "iri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016#c1--1",
+    "baseIri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "c164--4",
-      "en" : "Waste/Secondaries"
+      "IRI-based" : "c1--1",
+      "en" : "MetallicMinerals"
     },
+    "subClasses" : [ "38", "39" ],
     "comment" : {
-      "en" : "Waste / secondaries"
+      "en" : "Metallic minerals"
     },
-    "id" : "230",
-    "superClasses" : [ "214" ]
+    "id" : "37"
   }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c141--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
+    "iri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016#c33--2",
+    "baseIri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "c141--4",
-      "en" : "OverviewAnalyses"
+      "IRI-based" : "c33--2",
+      "en" : "Se"
     },
-    "subClasses" : [ "138", "113", "118" ],
     "comment" : {
-      "en" : "Overview analyses"
+      "en" : "Se"
     },
-    "id" : "114",
-    "superClasses" : [ "39" ]
+    "id" : "29",
+    "superClasses" : [ "6" ]
   }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c36--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
+    "iri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016#c9--2",
+    "baseIri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "c36--4",
-      "en" : "Geostatistics"
+      "IRI-based" : "c9--2",
+      "en" : "Zn"
     },
     "comment" : {
-      "en" : "Geostatistics"
+      "en" : "Zn"
     },
-    "id" : "72",
-    "superClasses" : [ "68" ]
+    "id" : "10",
+    "superClasses" : [ "1" ]
   }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c59--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
+    "iri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016#c5--2",
+    "baseIri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "c59--4",
-      "en" : "CompanyLevel"
+      "IRI-based" : "c5--2",
+      "en" : "Cu"
     },
     "comment" : {
-      "en" : "Company level"
-    },
-    "id" : "295",
-    "superClasses" : [ "102" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c175--2",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c175--2",
-      "en" : "PrimarySector"
-    },
-    "subClasses" : [ "195", "124", "369" ],
-    "comment" : {
-      "en" : "Primary sector"
-    },
-    "id" : "125",
-    "superClasses" : [ "48" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c201--1",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c201--1",
-      "en" : "Q15FutureAvailability"
-    },
-    "subClasses" : [ "30", "205" ],
-    "comment" : {
-      "en" : "Q15 FUTURE AVAILABILITY"
-    },
-    "id" : "31"
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c94--5",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c94--5",
-      "en" : "ObsoleteInfrastructure"
-    },
-    "comment" : {
-      "en" : "Obsolete infrastructure"
-    },
-    "id" : "353",
-    "superClasses" : [ "159" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c196--2",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c196--2",
-      "en" : "SustainableReporting"
-    },
-    "comment" : {
-      "en" : "Sustainable reporting"
+      "en" : "Cu"
     },
     "id" : "11",
-    "superClasses" : [ "5" ]
+    "superClasses" : [ "1" ]
   }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c106--5",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
+    "iri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016#c26--2",
+    "baseIri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "c106--5",
-      "en" : "IndustrialAndBidon4"
+      "IRI-based" : "c26--2",
+      "en" : "In"
     },
     "comment" : {
-      "en" : "Industrial and bidon4"
+      "en" : "In"
+    },
+    "id" : "33",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016#c19--1",
+    "baseIri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c19--1",
+      "en" : "SpecialityAndRare"
+    },
+    "subClasses" : [ "7", "36", "43", "41", "45", "29", "27", "33", "31", "13", "20", "25", "18", "17", "15", "5", "23", "46" ],
+    "comment" : {
+      "en" : "Speciality and rare metals"
+    },
+    "id" : "6"
+  }, {
+    "iri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016#c22--2",
+    "baseIri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c22--2",
+      "en" : "Ge"
+    },
+    "comment" : {
+      "en" : "Ge"
+    },
+    "id" : "5",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016#c13--2",
+    "baseIri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c13--2",
+      "en" : "Mn"
+    },
+    "comment" : {
+      "en" : "Mn"
+    },
+    "id" : "56",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016#c17--2",
+    "baseIri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c17--2",
+      "en" : "V"
+    },
+    "comment" : {
+      "en" : "V"
+    },
+    "id" : "55",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016#c36--2",
+    "baseIri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c36--2",
+      "en" : "Ti"
+    },
+    "comment" : {
+      "en" : "Ti"
+    },
+    "id" : "41",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016#c2--2",
+    "baseIri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c2--2",
+      "en" : "Au"
+    },
+    "comment" : {
+      "en" : "Au"
+    },
+    "id" : "38",
+    "superClasses" : [ "37" ]
+  }, {
+    "iri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016#c32--2",
+    "baseIri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c32--2",
+      "en" : "Sb"
+    },
+    "comment" : {
+      "en" : "Sb"
+    },
+    "id" : "45",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016#c6--2",
+    "baseIri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c6--2",
+      "en" : "Pb"
+    },
+    "comment" : {
+      "en" : "Pb"
+    },
+    "id" : "12",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016#c23--2",
+    "baseIri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c23--2",
+      "en" : "Ga"
+    },
+    "comment" : {
+      "en" : "Ga"
+    },
+    "id" : "25",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016#c27--2",
+    "baseIri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c27--2",
+      "en" : "Li"
+    },
+    "comment" : {
+      "en" : "Li"
+    },
+    "id" : "17",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016#c7--2",
+    "baseIri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c7--2",
+      "en" : "Pbzn"
+    },
+    "comment" : {
+      "en" : "PbZn"
+    },
+    "id" : "9",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016#c14--2",
+    "baseIri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "c14--2",
+      "en" : "Mo"
+    },
+    "comment" : {
+      "en" : "Mo"
     },
     "id" : "63",
-    "superClasses" : [ "51" ]
+    "superClasses" : [ "3" ]
   }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c130--2",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
+    "iri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016#c18--2",
+    "baseIri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "c130--2",
-      "en" : "Reuse/refurbishment/remanufacture"
+      "IRI-based" : "c18--2",
+      "en" : "W"
     },
     "comment" : {
-      "en" : "Reuse/refurbishment/remanufacture"
+      "en" : "W"
     },
-    "id" : "93",
-    "superClasses" : [ "92" ]
+    "id" : "49",
+    "superClasses" : [ "3" ]
   }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c186--2",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
+    "iri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016#c35--2",
+    "baseIri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "c186--2",
-      "en" : "EnvironmentalImpactOf"
+      "IRI-based" : "c35--2",
+      "en" : "Te"
     },
     "comment" : {
-      "en" : "Environmental impact of mining activities"
+      "en" : "Te"
     },
-    "id" : "249",
-    "superClasses" : [ "239" ]
+    "id" : "43",
+    "superClasses" : [ "6" ]
   }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c48--3",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
+    "iri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016#c31--2",
+    "baseIri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "c48--3",
-      "en" : "ClassificationSystem"
+      "IRI-based" : "c31--2",
+      "en" : "Ree"
     },
-    "subClasses" : [ "242", "349", "344", "351" ],
     "comment" : {
-      "en" : "Classification system"
-    },
-    "id" : "154",
-    "superClasses" : [ "155" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c60--3",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c60--3",
-      "en" : "SpatialData"
-    },
-    "subClasses" : [ "258", "337", "26", "233", "348", "350" ],
-    "comment" : {
-      "en" : "Spatial data"
+      "en" : "REE"
     },
     "id" : "27",
-    "superClasses" : [ "155" ]
+    "superClasses" : [ "6" ]
   }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c93--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
+    "iri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016#c10--1",
+    "baseIri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "c93--4",
-      "en" : "DiscardedEquipment"
+      "IRI-based" : "c10--1",
+      "en" : "IronAndFerro-alloy"
     },
-    "subClasses" : [ "353", "343" ],
+    "subClasses" : [ "63", "2", "56", "34", "55", "35", "49", "8" ],
     "comment" : {
-      "en" : "Discarded equipment "
+      "en" : "Iron and ferro-alloy metals"
     },
-    "id" : "159",
-    "superClasses" : [ "25" ]
+    "id" : "3"
   }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c200--2",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
+    "iri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016#c3--2",
+    "baseIri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "c200--2",
-      "en" : "ToEmployees(e.g.,"
+      "IRI-based" : "c3--2",
+      "en" : "Pltd"
     },
     "comment" : {
-      "en" : "To employees (e.g., Health and safety)"
+      "en" : "Pltd"
     },
-    "id" : "4",
-    "superClasses" : [ "5" ]
+    "id" : "39",
+    "superClasses" : [ "37" ]
   }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c15--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
+    "iri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016#c30--2",
+    "baseIri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "c15--4",
-      "en" : "Excavation"
+      "IRI-based" : "c30--2",
+      "en" : "Re"
     },
     "comment" : {
-      "en" : "Excavation"
+      "en" : "Re"
     },
-    "id" : "228",
-    "superClasses" : [ "226" ]
+    "id" : "31",
+    "superClasses" : [ "6" ]
   }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c82--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
+    "iri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016#c24--2",
+    "baseIri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "c82--4",
-      "en" : "CombustionWaste"
+      "IRI-based" : "c24--2",
+      "en" : "Hf"
     },
     "comment" : {
-      "en" : "Combustion waste"
+      "en" : "Hf"
     },
-    "id" : "79",
-    "superClasses" : [ "76" ]
+    "id" : "20",
+    "superClasses" : [ "6" ]
   }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c129--2",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
+    "iri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016#c28--2",
+    "baseIri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "c129--2",
-      "en" : "WastesStatistics"
+      "IRI-based" : "c28--2",
+      "en" : "Cs"
     },
     "comment" : {
-      "en" : "Wastes statistics"
+      "en" : "Cs"
     },
-    "id" : "96",
-    "superClasses" : [ "92" ]
+    "id" : "15",
+    "superClasses" : [ "6" ]
   }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c6--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
+    "iri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016#c20--2",
+    "baseIri" : "http://www.miva.org/onto/CommoditiesTronto_DRAFT_VERSION2_03052016",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "c6--4",
-      "en" : "RemoteSensing"
+      "IRI-based" : "c20--2",
+      "en" : "Bi"
     },
     "comment" : {
-      "en" : "Remote sensing"
+      "en" : "Bi"
     },
-    "id" : "197",
-    "superClasses" : [ "148" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c152--3",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c152--3",
-      "en" : "Imports"
-    },
-    "comment" : {
-      "en" : "Imports"
-    },
-    "id" : "302",
-    "superClasses" : [ "106" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c26--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c26--4",
-      "en" : "OreBeneficiationTests"
-    },
-    "comment" : {
-      "en" : "Ore beneficiation tests"
-    },
-    "id" : "37",
-    "superClasses" : [ "32" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c118--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c118--4",
-      "en" : "StocksInInfrastructures"
-    },
-    "comment" : {
-      "en" : "Stocks in infrastructures"
-    },
-    "id" : "236",
-    "superClasses" : [ "222" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c163--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c163--4",
-      "en" : "ConstructionMinerals"
-    },
-    "comment" : {
-      "en" : "Construction minerals"
-    },
-    "id" : "229",
-    "superClasses" : [ "214" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c71--5",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c71--5",
-      "en" : "MineralMetalliferousExcavation"
-    },
-    "comment" : {
-      "en" : "Mineral metalliferous excavation"
-    },
-    "id" : "211",
-    "superClasses" : [ "209" ]
-  }, {
-    "iri" : "http://www.exemple.org/ontologies/Things#c37--4",
-    "baseIri" : "http://www.exemple.org/ontologies/Things",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "c37--4",
-      "en" : "PilotPlant"
-    },
-    "comment" : {
-      "en" : "Pilot plant"
-    },
-    "id" : "70",
-    "superClasses" : [ "68" ]
+    "id" : "46",
+    "superClasses" : [ "6" ]
   } ],
   "property" : [ {
-    "id" : "0",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "3",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "6",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "8",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "10",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "12",
+    "id" : "4",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "14",
     "type" : "rdfs:SubClassOf"
   }, {
+    "id" : "16",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "19",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "21",
+    "type" : "rdfs:SubClassOf"
+  }, {
     "id" : "22",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "40",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "42",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "45",
+    "id" : "44",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "49",
+    "id" : "47",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "50",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "51",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "52",
     "type" : "rdfs:SubClassOf"
   }, {
+    "id" : "53",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "57",
+    "type" : "rdfs:SubClassOf"
+  }, {
     "id" : "58",
     "type" : "rdfs:SubClassOf"
   }, {
+    "id" : "59",
+    "type" : "rdfs:SubClassOf"
+  }, {
     "id" : "60",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "61",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "62",
@@ -3392,1509 +706,185 @@
     "id" : "64",
     "type" : "rdfs:SubClassOf"
   }, {
+    "id" : "65",
+    "type" : "rdfs:SubClassOf"
+  }, {
     "id" : "66",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "67",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "68",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "69",
     "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "71",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "85",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "112",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "117",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "119",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "122",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "127",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "129",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "131",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "134",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "135",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "137",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "139",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "140",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "141",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "143",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "145",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "149",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "151",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "153",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "156",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "157",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "158",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "160",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "162",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "164",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "165",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "166",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "176",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "178",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "183",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "185",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "187",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "189",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "191",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "193",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "196",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "198",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "199",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "206",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "207",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "210",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "212",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "215",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "216",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "217",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "218",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "219",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "220",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "221",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "223",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "225",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "227",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "235",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "237",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "240",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "243",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "245",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "246",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "248",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "250",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "251",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "252",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "253",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "254",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "256",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "260",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "261",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "262",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "263",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "264",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "266",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "267",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "268",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "269",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "270",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "271",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "272",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "273",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "276",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "277",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "278",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "281",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "282",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "283",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "284",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "285",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "286",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "287",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "288",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "290",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "291",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "292",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "294",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "297",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "298",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "299",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "301",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "303",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "305",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "309",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "311",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "313",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "314",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "315",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "316",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "318",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "319",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "320",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "321",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "322",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "323",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "324",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "325",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "327",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "328",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "329",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "330",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "331",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "332",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "333",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "334",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "335",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "336",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "338",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "339",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "340",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "341",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "342",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "345",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "346",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "347",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "352",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "354",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "355",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "356",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "357",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "358",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "359",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "360",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "361",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "362",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "363",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "364",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "365",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "366",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "367",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "368",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "370",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "371",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "372",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "373",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "374",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "375",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "376",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "377",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "378",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "379",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "380",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "381",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "382",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "383",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "384",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "385",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "386",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "387",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "388",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "389",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "390",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "391",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "392",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "393",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "394",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "395",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "396",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "397",
-    "type" : "rdfs:SubClassOf"
   } ],
   "propertyAttribute" : [ {
-    "range" : "2",
-    "domain" : "1",
+    "range" : "6",
+    "domain" : "5",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "0"
+    "id" : "4"
   }, {
-    "range" : "5",
-    "domain" : "4",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "3"
-  }, {
-    "range" : "5",
-    "domain" : "7",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "6"
-  }, {
-    "range" : "5",
-    "domain" : "9",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "8"
-  }, {
-    "range" : "5",
-    "domain" : "11",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "10"
-  }, {
-    "range" : "5",
-    "domain" : "13",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "12"
-  }, {
-    "range" : "16",
+    "range" : "6",
     "domain" : "15",
     "attributes" : [ "object", "anonymous" ],
     "id" : "14"
   }, {
-    "range" : "16",
-    "domain" : "23",
+    "range" : "6",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "16"
+  }, {
+    "range" : "6",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "19"
+  }, {
+    "range" : "6",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "21"
+  }, {
+    "range" : "6",
+    "domain" : "18",
     "attributes" : [ "object", "anonymous" ],
     "id" : "22"
   }, {
-    "range" : "2",
+    "range" : "6",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "24"
+  }, {
+    "range" : "6",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "26"
+  }, {
+    "range" : "6",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "28"
+  }, {
+    "range" : "6",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "30"
+  }, {
+    "range" : "6",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "32"
+  }, {
+    "range" : "6",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "40"
+  }, {
+    "range" : "6",
     "domain" : "43",
     "attributes" : [ "object", "anonymous" ],
     "id" : "42"
   }, {
-    "range" : "2",
-    "domain" : "46",
+    "range" : "6",
+    "domain" : "45",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "45"
+    "id" : "44"
   }, {
-    "range" : "51",
-    "domain" : "50",
+    "range" : "3",
+    "domain" : "8",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "49"
+    "id" : "47"
   }, {
-    "range" : "51",
-    "domain" : "53",
+    "range" : "3",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "48"
+  }, {
+    "range" : "6",
+    "domain" : "36",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "50"
+  }, {
+    "range" : "6",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "51"
+  }, {
+    "range" : "3",
+    "domain" : "34",
     "attributes" : [ "object", "anonymous" ],
     "id" : "52"
   }, {
-    "range" : "51",
-    "domain" : "59",
+    "range" : "3",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "53"
+  }, {
+    "range" : "3",
+    "domain" : "55",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "54"
+  }, {
+    "range" : "1",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "57"
+  }, {
+    "range" : "1",
+    "domain" : "11",
     "attributes" : [ "object", "anonymous" ],
     "id" : "58"
   }, {
-    "range" : "51",
-    "domain" : "61",
+    "range" : "1",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "59"
+  }, {
+    "range" : "37",
+    "domain" : "38",
     "attributes" : [ "object", "anonymous" ],
     "id" : "60"
   }, {
-    "range" : "51",
+    "range" : "37",
+    "domain" : "39",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "61"
+  }, {
+    "range" : "3",
     "domain" : "63",
     "attributes" : [ "object", "anonymous" ],
     "id" : "62"
   }, {
-    "range" : "51",
-    "domain" : "65",
+    "range" : "3",
+    "domain" : "2",
     "attributes" : [ "object", "anonymous" ],
     "id" : "64"
   }, {
-    "range" : "68",
-    "domain" : "67",
+    "range" : "3",
+    "domain" : "56",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "65"
+  }, {
+    "range" : "1",
+    "domain" : "9",
     "attributes" : [ "object", "anonymous" ],
     "id" : "66"
   }, {
-    "range" : "68",
-    "domain" : "70",
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "67"
+  }, {
+    "range" : "6",
+    "domain" : "46",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "68"
+  }, {
+    "range" : "6",
+    "domain" : "23",
     "attributes" : [ "object", "anonymous" ],
     "id" : "69"
-  }, {
-    "range" : "68",
-    "domain" : "72",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "71"
-  }, {
-    "range" : "51",
-    "domain" : "86",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "85"
-  }, {
-    "range" : "114",
-    "domain" : "113",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "112"
-  }, {
-    "range" : "114",
-    "domain" : "118",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "117"
-  }, {
-    "range" : "102",
-    "domain" : "120",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "119"
-  }, {
-    "range" : "102",
-    "domain" : "123",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "122"
-  }, {
-    "range" : "104",
-    "domain" : "103",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "127"
-  }, {
-    "range" : "104",
-    "domain" : "130",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "129"
-  }, {
-    "range" : "35",
-    "domain" : "132",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "131"
-  }, {
-    "range" : "111",
-    "domain" : "110",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "134"
-  }, {
-    "range" : "111",
-    "domain" : "136",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "135"
-  }, {
-    "range" : "114",
-    "domain" : "138",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "137"
-  }, {
-    "range" : "74",
-    "domain" : "73",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "139"
-  }, {
-    "range" : "74",
-    "domain" : "126",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "140"
-  }, {
-    "range" : "74",
-    "domain" : "142",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "141"
-  }, {
-    "range" : "74",
-    "domain" : "144",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "143"
-  }, {
-    "range" : "104",
-    "domain" : "146",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "145"
-  }, {
-    "range" : "25",
-    "domain" : "150",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "149"
-  }, {
-    "range" : "25",
-    "domain" : "133",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "151"
-  }, {
-    "range" : "155",
-    "domain" : "154",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "153"
-  }, {
-    "range" : "155",
-    "domain" : "102",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "156"
-  }, {
-    "range" : "155",
-    "domain" : "27",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "157"
-  }, {
-    "range" : "25",
-    "domain" : "159",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "158"
-  }, {
-    "range" : "25",
-    "domain" : "161",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "160"
-  }, {
-    "range" : "25",
-    "domain" : "163",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "162"
-  }, {
-    "range" : "25",
-    "domain" : "75",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "164"
-  }, {
-    "range" : "25",
-    "domain" : "24",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "165"
-  }, {
-    "range" : "25",
-    "domain" : "167",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "166"
-  }, {
-    "range" : "121",
-    "domain" : "177",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "176"
-  }, {
-    "range" : "121",
-    "domain" : "179",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "178"
-  }, {
-    "range" : "121",
-    "domain" : "184",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "183"
-  }, {
-    "range" : "25",
-    "domain" : "186",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "185"
-  }, {
-    "range" : "148",
-    "domain" : "188",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "187"
-  }, {
-    "range" : "148",
-    "domain" : "190",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "189"
-  }, {
-    "range" : "148",
-    "domain" : "192",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "191"
-  }, {
-    "range" : "148",
-    "domain" : "194",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "193"
-  }, {
-    "range" : "148",
-    "domain" : "197",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "196"
-  }, {
-    "range" : "148",
-    "domain" : "147",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "198"
-  }, {
-    "range" : "121",
-    "domain" : "55",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "199"
-  }, {
-    "range" : "16",
-    "domain" : "44",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "206"
-  }, {
-    "range" : "209",
-    "domain" : "208",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "207"
-  }, {
-    "range" : "209",
-    "domain" : "211",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "210"
-  }, {
-    "range" : "39",
-    "domain" : "114",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "212"
-  }, {
-    "range" : "39",
-    "domain" : "38",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "215"
-  }, {
-    "range" : "76",
-    "domain" : "82",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "216"
-  }, {
-    "range" : "76",
-    "domain" : "79",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "217"
-  }, {
-    "range" : "76",
-    "domain" : "78",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "218"
-  }, {
-    "range" : "76",
-    "domain" : "81",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "219"
-  }, {
-    "range" : "76",
-    "domain" : "80",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "220"
-  }, {
-    "range" : "222",
-    "domain" : "16",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "221"
-  }, {
-    "range" : "222",
-    "domain" : "224",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "223"
-  }, {
-    "range" : "226",
-    "domain" : "104",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "225"
-  }, {
-    "range" : "226",
-    "domain" : "228",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "227"
-  }, {
-    "range" : "222",
-    "domain" : "236",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "235"
-  }, {
-    "range" : "239",
-    "domain" : "238",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "237"
-  }, {
-    "range" : "222",
-    "domain" : "241",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "240"
-  }, {
-    "range" : "239",
-    "domain" : "244",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "243"
-  }, {
-    "range" : "54",
-    "domain" : "57",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "245"
-  }, {
-    "range" : "239",
-    "domain" : "247",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "246"
-  }, {
-    "range" : "239",
-    "domain" : "249",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "248"
-  }, {
-    "range" : "48",
-    "domain" : "47",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "250"
-  }, {
-    "range" : "54",
-    "domain" : "56",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "251"
-  }, {
-    "range" : "48",
-    "domain" : "125",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "252"
-  }, {
-    "range" : "213",
-    "domain" : "107",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "253"
-  }, {
-    "range" : "213",
-    "domain" : "255",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "254"
-  }, {
-    "range" : "213",
-    "domain" : "257",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "256"
-  }, {
-    "range" : "55",
-    "domain" : "54",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "260"
-  }, {
-    "range" : "41",
-    "domain" : "40",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "261"
-  }, {
-    "range" : "213",
-    "domain" : "234",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "262"
-  }, {
-    "range" : "55",
-    "domain" : "39",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "263"
-  }, {
-    "range" : "67",
-    "domain" : "265",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "264"
-  }, {
-    "range" : "82",
-    "domain" : "100",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "266"
-  }, {
-    "range" : "41",
-    "domain" : "109",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "267"
-  }, {
-    "range" : "41",
-    "domain" : "108",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "268"
-  }, {
-    "range" : "82",
-    "domain" : "99",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "269"
-  }, {
-    "range" : "82",
-    "domain" : "98",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "270"
-  }, {
-    "range" : "92",
-    "domain" : "97",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "271"
-  }, {
-    "range" : "92",
-    "domain" : "94",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "272"
-  }, {
-    "range" : "92",
-    "domain" : "93",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "273"
-  }, {
-    "range" : "92",
-    "domain" : "96",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "276"
-  }, {
-    "range" : "92",
-    "domain" : "95",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "277"
-  }, {
-    "range" : "56",
-    "domain" : "88",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "278"
-  }, {
-    "range" : "56",
-    "domain" : "87",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "281"
-  }, {
-    "range" : "92",
-    "domain" : "77",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "282"
-  }, {
-    "range" : "56",
-    "domain" : "89",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "283"
-  }, {
-    "range" : "171",
-    "domain" : "172",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "284"
-  }, {
-    "range" : "84",
-    "domain" : "168",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "285"
-  }, {
-    "range" : "171",
-    "domain" : "174",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "286"
-  }, {
-    "range" : "171",
-    "domain" : "173",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "287"
-  }, {
-    "range" : "84",
-    "domain" : "83",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "288"
-  }, {
-    "range" : "84",
-    "domain" : "128",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "290"
-  }, {
-    "range" : "84",
-    "domain" : "115",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "291"
-  }, {
-    "range" : "57",
-    "domain" : "293",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "292"
-  }, {
-    "range" : "280",
-    "domain" : "279",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "294"
-  }, {
-    "range" : "97",
-    "domain" : "222",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "297"
-  }, {
-    "range" : "97",
-    "domain" : "275",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "298"
-  }, {
-    "range" : "106",
-    "domain" : "300",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "299"
-  }, {
-    "range" : "106",
-    "domain" : "302",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "301"
-  }, {
-    "range" : "280",
-    "domain" : "304",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "303"
-  }, {
-    "range" : "36",
-    "domain" : "306",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "305"
-  }, {
-    "range" : "106",
-    "domain" : "310",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "309"
-  }, {
-    "range" : "106",
-    "domain" : "312",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "311"
-  }, {
-    "range" : "106",
-    "domain" : "307",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "313"
-  }, {
-    "range" : "106",
-    "domain" : "105",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "314"
-  }, {
-    "range" : "213",
-    "domain" : "106",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "315"
-  }, {
-    "range" : "106",
-    "domain" : "317",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "316"
-  }, {
-    "range" : "106",
-    "domain" : "116",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "318"
-  }, {
-    "range" : "214",
-    "domain" : "231",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "319"
-  }, {
-    "range" : "214",
-    "domain" : "230",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "320"
-  }, {
-    "range" : "170",
-    "domain" : "169",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "321"
-  }, {
-    "range" : "214",
-    "domain" : "232",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "322"
-  }, {
-    "range" : "202",
-    "domain" : "280",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "323"
-  }, {
-    "range" : "214",
-    "domain" : "229",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "324"
-  }, {
-    "range" : "202",
-    "domain" : "209",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "325"
-  }, {
-    "range" : "107",
-    "domain" : "170",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "327"
-  }, {
-    "range" : "107",
-    "domain" : "214",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "328"
-  }, {
-    "range" : "202",
-    "domain" : "289",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "329"
-  }, {
-    "range" : "107",
-    "domain" : "41",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "330"
-  }, {
-    "range" : "77",
-    "domain" : "204",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "331"
-  }, {
-    "range" : "77",
-    "domain" : "203",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "332"
-  }, {
-    "range" : "77",
-    "domain" : "25",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "333"
-  }, {
-    "range" : "77",
-    "domain" : "76",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "334"
-  }, {
-    "range" : "77",
-    "domain" : "200",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "335"
-  }, {
-    "range" : "77",
-    "domain" : "202",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "336"
-  }, {
-    "range" : "91",
-    "domain" : "90",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "338"
-  }, {
-    "range" : "180",
-    "domain" : "182",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "339"
-  }, {
-    "range" : "171",
-    "domain" : "175",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "340"
-  }, {
-    "range" : "91",
-    "domain" : "201",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "341"
-  }, {
-    "range" : "180",
-    "domain" : "68",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "342"
-  }, {
-    "range" : "200",
-    "domain" : "51",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "345"
-  }, {
-    "range" : "200",
-    "domain" : "111",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "346"
-  }, {
-    "range" : "200",
-    "domain" : "91",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "347"
-  }, {
-    "range" : "159",
-    "domain" : "353",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "352"
-  }, {
-    "range" : "159",
-    "domain" : "343",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "354"
-  }, {
-    "range" : "275",
-    "domain" : "326",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "355"
-  }, {
-    "range" : "275",
-    "domain" : "274",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "356"
-  }, {
-    "range" : "27",
-    "domain" : "350",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "357"
-  }, {
-    "range" : "154",
-    "domain" : "242",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "358"
-  }, {
-    "range" : "154",
-    "domain" : "349",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "359"
-  }, {
-    "range" : "154",
-    "domain" : "344",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "360"
-  }, {
-    "range" : "154",
-    "domain" : "351",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "361"
-  }, {
-    "range" : "27",
-    "domain" : "258",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "362"
-  }, {
-    "range" : "27",
-    "domain" : "337",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "363"
-  }, {
-    "range" : "27",
-    "domain" : "26",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "364"
-  }, {
-    "range" : "27",
-    "domain" : "233",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "365"
-  }, {
-    "range" : "27",
-    "domain" : "348",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "366"
-  }, {
-    "range" : "33",
-    "domain" : "171",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "367"
-  }, {
-    "range" : "33",
-    "domain" : "84",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "368"
-  }, {
-    "range" : "181",
-    "domain" : "2",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "370"
-  }, {
-    "range" : "31",
-    "domain" : "30",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "371"
-  }, {
-    "range" : "31",
-    "domain" : "205",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "372"
-  }, {
-    "range" : "34",
-    "domain" : "308",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "373"
-  }, {
-    "range" : "34",
-    "domain" : "259",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "374"
-  }, {
-    "range" : "33",
-    "domain" : "148",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "375"
-  }, {
-    "range" : "33",
-    "domain" : "32",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "376"
-  }, {
-    "range" : "33",
-    "domain" : "226",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "377"
-  }, {
-    "range" : "181",
-    "domain" : "33",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "378"
-  }, {
-    "range" : "181",
-    "domain" : "155",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "379"
-  }, {
-    "range" : "181",
-    "domain" : "180",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "380"
-  }, {
-    "range" : "102",
-    "domain" : "295",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "381"
-  }, {
-    "range" : "102",
-    "domain" : "101",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "382"
-  }, {
-    "range" : "102",
-    "domain" : "152",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "383"
-  }, {
-    "range" : "102",
-    "domain" : "296",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "384"
-  }, {
-    "range" : "125",
-    "domain" : "195",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "385"
-  }, {
-    "range" : "125",
-    "domain" : "124",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "386"
-  }, {
-    "range" : "125",
-    "domain" : "369",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "387"
-  }, {
-    "range" : "17",
-    "domain" : "20",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "388"
-  }, {
-    "range" : "17",
-    "domain" : "21",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "389"
-  }, {
-    "range" : "1",
-    "domain" : "28",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "390"
-  }, {
-    "range" : "1",
-    "domain" : "29",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "391"
-  }, {
-    "range" : "32",
-    "domain" : "34",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "392"
-  }, {
-    "range" : "32",
-    "domain" : "35",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "393"
-  }, {
-    "range" : "32",
-    "domain" : "36",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "394"
-  }, {
-    "range" : "32",
-    "domain" : "37",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "395"
-  }, {
-    "range" : "17",
-    "domain" : "18",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "396"
-  }, {
-    "range" : "17",
-    "domain" : "19",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "397"
   } ]
 }
