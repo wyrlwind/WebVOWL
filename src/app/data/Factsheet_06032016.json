@@ -1,0 +1,1801 @@
+{
+  "_comment" : "Created with OWL2VOWL (version @project.version@), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en" ],
+    "baseIris" : [ "http://www.mica.org/ontology", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "iri" : "http://www.mica.org/ontology",
+    "version" : "0.1.1",
+    "other" : {
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "en",
+        "value" : "0.1.1",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "metrics" : {
+    "classCount" : 23,
+    "datatypeCount" : 28,
+    "objectPropertyCount" : 58,
+    "datatypePropertyCount" : 23,
+    "propertyCount" : 105,
+    "nodeCount" : 51,
+    "individualCount" : 12
+  },
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "14",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "55",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "67",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "68",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "70",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "71",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "58",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "73",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "74",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "65",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "64",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "8",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "77",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "78",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "79",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "11",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "97",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "117",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "87",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.mica.org/ontology#SecondaryResources",
+    "baseIri" : "http://www.mica.org/ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "SecondaryResources"
+    },
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral",
+    "baseIri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "id" : "2",
+    "label" : {
+      "IRI-based" : "PlainLiteral"
+    }
+  }, {
+    "iri" : "http://www.mica.org/ontology#Time",
+    "baseIri" : "http://www.mica.org/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Time"
+    },
+    "id" : "9"
+  }, {
+    "iri" : "http://www.mica.org/ontology#Factsheet",
+    "baseIri" : "http://www.mica.org/ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Factsheet"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.mica.org/ontology#schlumberger",
+      "baseIri" : "http://www.mica.org/ontology",
+      "labels" : {
+        "IRI-based" : "schlumberger"
+      }
+    }, {
+      "iri" : "http://www.mica.org/ontology#LifeCycleAnalysis",
+      "baseIri" : "http://www.mica.org/ontology",
+      "labels" : {
+        "IRI-based" : "LifeCycleAnalysis"
+      }
+    }, {
+      "iri" : "http://www.mica.org/ontology#EE-SUIOT",
+      "baseIri" : "http://www.mica.org/ontology",
+      "labels" : {
+        "IRI-based" : "EE-SUIOT"
+      }
+    } ],
+    "id" : "5"
+  }, {
+    "instances" : 0,
+    "union" : [ "5", "13" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "12"
+  }, {
+    "instances" : 0,
+    "union" : [ "5", "13" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "14"
+  }, {
+    "iri" : "http://www.mica.org/ontology#Domain",
+    "baseIri" : "http://www.mica.org/ontology",
+    "instances" : 9,
+    "label" : {
+      "IRI-based" : "Domain"
+    },
+    "subClasses" : [ "20", "22", "28", "0", "41", "42", "23", "43" ],
+    "id" : "1"
+  }, {
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral",
+    "baseIri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "id" : "54",
+    "label" : {
+      "IRI-based" : "PlainLiteral"
+    }
+  }, {
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral",
+    "baseIri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "id" : "55",
+    "label" : {
+      "IRI-based" : "PlainLiteral"
+    }
+  }, {
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral",
+    "baseIri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "id" : "38",
+    "label" : {
+      "IRI-based" : "PlainLiteral"
+    }
+  }, {
+    "iri" : "http://www.mica.org/ontology#Stakeholder",
+    "baseIri" : "http://www.mica.org/ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Stakeholder"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.mica.org/ontology#mica",
+      "baseIri" : "http://www.mica.org/ontology",
+      "labels" : {
+        "IRI-based" : "mica"
+      }
+    }, {
+      "iri" : "http://www.mica.org/ontology#EuropeanComission",
+      "baseIri" : "http://www.mica.org/ontology",
+      "labels" : {
+        "IRI-based" : "EuropeanComission"
+      }
+    } ],
+    "id" : "56"
+  }, {
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral",
+    "baseIri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "id" : "66",
+    "label" : {
+      "IRI-based" : "PlainLiteral"
+    }
+  }, {
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral",
+    "baseIri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "id" : "67",
+    "label" : {
+      "IRI-based" : "PlainLiteral"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "69", "13" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "68"
+  }, {
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral",
+    "baseIri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "id" : "70",
+    "label" : {
+      "IRI-based" : "PlainLiteral"
+    }
+  }, {
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral",
+    "baseIri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "id" : "40",
+    "label" : {
+      "IRI-based" : "PlainLiteral"
+    }
+  }, {
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral",
+    "baseIri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "id" : "36",
+    "label" : {
+      "IRI-based" : "PlainLiteral"
+    }
+  }, {
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral",
+    "baseIri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "id" : "34",
+    "label" : {
+      "IRI-based" : "PlainLiteral"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "71",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral",
+    "baseIri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "id" : "58",
+    "label" : {
+      "IRI-based" : "PlainLiteral"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "73",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.mica.org/ontology#Model",
+    "baseIri" : "http://www.mica.org/ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Model"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.mica.org/ontology#MatrixInversion",
+      "baseIri" : "http://www.mica.org/ontology",
+      "labels" : {
+        "IRI-based" : "MatrixInversion"
+      }
+    }, {
+      "iri" : "http://www.mica.org/ontology#mod1",
+      "baseIri" : "http://www.mica.org/ontology",
+      "labels" : {
+        "IRI-based" : "mod1"
+      }
+    } ],
+    "subClasses" : [ "69" ],
+    "id" : "74"
+  }, {
+    "iri" : "http://www.mica.org/ontology#InternationalReportingAndSocialResponsability",
+    "baseIri" : "http://www.mica.org/ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "InternationalReportingAndSocialResponsability"
+    },
+    "id" : "22",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.mica.org/ontology#RawMaterialsEconomics",
+    "baseIri" : "http://www.mica.org/ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "RawMaterialsEconomics"
+    },
+    "id" : "41",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral",
+    "baseIri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "id" : "60",
+    "label" : {
+      "IRI-based" : "PlainLiteral"
+    }
+  }, {
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral",
+    "baseIri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "id" : "65",
+    "label" : {
+      "IRI-based" : "PlainLiteral"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "13", "4" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "64"
+  }, {
+    "iri" : "http://www.mica.org/ontology#RawMaterialsPolicy&LegalFramework",
+    "baseIri" : "http://www.mica.org/ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "RawMaterialsPolicy&LegalFramework"
+    },
+    "id" : "23",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral",
+    "baseIri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "id" : "76",
+    "label" : {
+      "IRI-based" : "PlainLiteral"
+    }
+  }, {
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral",
+    "baseIri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "id" : "8",
+    "label" : {
+      "IRI-based" : "PlainLiteral"
+    }
+  }, {
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral",
+    "baseIri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "id" : "77",
+    "label" : {
+      "IRI-based" : "PlainLiteral"
+    }
+  }, {
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral",
+    "baseIri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "id" : "78",
+    "label" : {
+      "IRI-based" : "PlainLiteral"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "79",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral",
+    "baseIri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "id" : "11",
+    "label" : {
+      "IRI-based" : "PlainLiteral"
+    }
+  }, {
+    "iri" : "http://www.mica.org/ontology#PrimaryResources",
+    "baseIri" : "http://www.mica.org/ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "PrimaryResources"
+    },
+    "id" : "20",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.mica.org/ontology#EnvironmentalConsiderations",
+    "baseIri" : "http://www.mica.org/ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "EnvironmentalConsiderations"
+    },
+    "id" : "42",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.mica.org/ontology#Space",
+    "baseIri" : "http://www.mica.org/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Space"
+    },
+    "id" : "97"
+  }, {
+    "iri" : "http://www.mica.org/ontology#Person",
+    "baseIri" : "http://www.mica.org/ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Person"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.mica.org/ontology#LauranVanOers",
+      "baseIri" : "http://www.mica.org/ontology",
+      "labels" : {
+        "IRI-based" : "LauranVanOers"
+      }
+    }, {
+      "iri" : "http://www.mica.org/ontology#AdelZodhy",
+      "baseIri" : "http://www.mica.org/ontology",
+      "labels" : {
+        "IRI-based" : "AdelZodhy"
+      }
+    }, {
+      "iri" : "http://www.mica.org/ontology#BenjaminDelhomme",
+      "baseIri" : "http://www.mica.org/ontology",
+      "labels" : {
+        "IRI-based" : "BenjaminDelhomme"
+      }
+    } ],
+    "id" : "33"
+  }, {
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral",
+    "baseIri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "id" : "117",
+    "label" : {
+      "IRI-based" : "PlainLiteral"
+    }
+  }, {
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral",
+    "baseIri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "id" : "87",
+    "label" : {
+      "IRI-based" : "PlainLiteral"
+    }
+  }, {
+    "iri" : "http://www.mica.org/ontology#MathematicalModel",
+    "baseIri" : "http://www.mica.org/ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "MathematicalModel"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.mica.org/ontology#MatrixInversion",
+      "baseIri" : "http://www.mica.org/ontology",
+      "labels" : {
+        "IRI-based" : "MatrixInversion"
+      }
+    }, {
+      "iri" : "http://www.mica.org/ontology#mod1",
+      "baseIri" : "http://www.mica.org/ontology",
+      "labels" : {
+        "IRI-based" : "mod1"
+      }
+    } ],
+    "id" : "69",
+    "superClasses" : [ "74" ]
+  }, {
+    "iri" : "http://www.mica.org/ontology#Publication",
+    "baseIri" : "http://www.mica.org/ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Publication"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.mica.org/ontology#pub1",
+      "baseIri" : "http://www.mica.org/ontology",
+      "labels" : {
+        "IRI-based" : "pub1"
+      }
+    } ],
+    "id" : "13"
+  }, {
+    "iri" : "http://www.mica.org/ontology#Database",
+    "baseIri" : "http://www.mica.org/ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Database"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.mica.org/ontology#ELCD",
+      "baseIri" : "http://www.mica.org/ontology",
+      "comment" : {
+        "en" : "European Reference Life Cycle Database"
+      },
+      "labels" : {
+        "IRI-based" : "ELCD"
+      }
+    } ],
+    "id" : "4"
+  }, {
+    "iri" : "http://www.mica.org/ontology#IndustrialProcessingAndTransformation",
+    "baseIri" : "http://www.mica.org/ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "IndustrialProcessingAndTransformation"
+    },
+    "id" : "28",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "18",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.mica.org/ontology#CriticalRawMaterials",
+    "baseIri" : "http://www.mica.org/ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "CriticalRawMaterials"
+    },
+    "id" : "43",
+    "superClasses" : [ "1" ]
+  } ],
+  "property" : [ {
+    "id" : "3",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "7",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "10",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "15",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "17",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "19",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "21",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "24",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "25",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "26",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "27",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "29",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "30",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "31",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "32",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "35",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "37",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "39",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "44",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "45",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "46",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "47",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "48",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "49",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "50",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "51",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "52",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "53",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "57",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "59",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "61",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "63",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "72",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "75",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "80",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "81",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "82",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "83",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "84",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "85",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "86",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "88",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "91",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "92",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "93",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "94",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "95",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "96",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "98",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "99",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "100",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "101",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "102",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "103",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "104",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "106",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "107",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "108",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "109",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "6",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "110",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "111",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "113",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "114",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "115",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "116",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "118",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "119",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "120",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "16",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "105",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "121",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "89",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "122",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "123",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "124",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "125",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "126",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "127",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "128",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "129",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "130",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "90",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "131",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "132",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "133",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "62",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "134",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "135",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "136",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "137",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "138",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "139",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "140",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "141",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "142",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "143",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "144",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "112",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "145",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "146",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "147",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "148",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "149",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "150",
+    "type" : "rdf:Property"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.mica.org/ontology#isRequiredBy",
+    "inverse" : "6",
+    "baseIri" : "http://www.mica.org/ontology",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "isRequiredBy"
+    },
+    "domain" : "4",
+    "attributes" : [ "object" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://www.mica.org/ontology#dataNeeds",
+    "baseIri" : "http://www.mica.org/ontology",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "dataNeeds"
+    },
+    "domain" : "5",
+    "attributes" : [ "datatype" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://www.mica.org/ontology#keyRelevantContact",
+    "baseIri" : "http://www.mica.org/ontology",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "keyRelevantContact"
+    },
+    "domain" : "5",
+    "attributes" : [ "datatype" ],
+    "id" : "10"
+  }, {
+    "iri" : "http://www.mica.org/ontology#hasReference",
+    "inverse" : "16",
+    "baseIri" : "http://www.mica.org/ontology",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "hasReference"
+    },
+    "domain" : "5",
+    "attributes" : [ "transitive", "object" ],
+    "id" : "15"
+  }, {
+    "iri" : "http://www.mica.org/ontology#isModelOf",
+    "baseIri" : "http://www.mica.org/ontology",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "isModelOf"
+    },
+    "domain" : "18",
+    "attributes" : [ "object" ],
+    "id" : "17"
+  }, {
+    "range" : "0",
+    "domain" : "20",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "19"
+  }, {
+    "range" : "23",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "21"
+  }, {
+    "range" : "0",
+    "domain" : "23",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "24"
+  }, {
+    "iri" : "http://www.mica.org/ontology#title",
+    "baseIri" : "http://www.mica.org/ontology",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "title"
+    },
+    "domain" : "12",
+    "attributes" : [ "datatype" ],
+    "id" : "25"
+  }, {
+    "range" : "23",
+    "domain" : "20",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "26"
+  }, {
+    "range" : "23",
+    "domain" : "28",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "27"
+  }, {
+    "range" : "0",
+    "domain" : "28",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "29"
+  }, {
+    "range" : "0",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "30"
+  }, {
+    "range" : "20",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "31"
+  }, {
+    "iri" : "http://www.mica.org/ontology#email",
+    "baseIri" : "http://www.mica.org/ontology",
+    "range" : "34",
+    "label" : {
+      "IRI-based" : "email"
+    },
+    "domain" : "33",
+    "attributes" : [ "datatype" ],
+    "id" : "32"
+  }, {
+    "iri" : "http://www.mica.org/ontology#topic",
+    "baseIri" : "http://www.mica.org/ontology",
+    "range" : "36",
+    "label" : {
+      "IRI-based" : "topic"
+    },
+    "domain" : "5",
+    "attributes" : [ "datatype" ],
+    "id" : "35"
+  }, {
+    "iri" : "http://www.mica.org/ontology#indicators",
+    "baseIri" : "http://www.mica.org/ontology",
+    "range" : "38",
+    "label" : {
+      "IRI-based" : "indicators"
+    },
+    "domain" : "5",
+    "attributes" : [ "datatype" ],
+    "id" : "37"
+  }, {
+    "iri" : "http://www.mica.org/ontology#scope",
+    "baseIri" : "http://www.mica.org/ontology",
+    "range" : "40",
+    "label" : {
+      "IRI-based" : "scope"
+    },
+    "domain" : "5",
+    "attributes" : [ "datatype" ],
+    "id" : "39"
+  }, {
+    "range" : "28",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "44"
+  }, {
+    "range" : "23",
+    "domain" : "42",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "45"
+  }, {
+    "range" : "20",
+    "domain" : "28",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "46"
+  }, {
+    "range" : "22",
+    "domain" : "42",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "47"
+  }, {
+    "range" : "28",
+    "domain" : "42",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "48"
+  }, {
+    "range" : "0",
+    "domain" : "42",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "49"
+  }, {
+    "range" : "20",
+    "domain" : "42",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "50"
+  }, {
+    "range" : "43",
+    "domain" : "20",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "51"
+  }, {
+    "range" : "43",
+    "domain" : "23",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "52"
+  }, {
+    "range" : "43",
+    "domain" : "0",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "53"
+  }, {
+    "iri" : "http://www.mica.org/ontology#model",
+    "baseIri" : "http://www.mica.org/ontology",
+    "range" : "58",
+    "label" : {
+      "IRI-based" : "model"
+    },
+    "domain" : "5",
+    "attributes" : [ "datatype" ],
+    "id" : "57"
+  }, {
+    "iri" : "http://www.mica.org/ontology#organization",
+    "baseIri" : "http://www.mica.org/ontology",
+    "range" : "60",
+    "label" : {
+      "IRI-based" : "organization"
+    },
+    "domain" : "33",
+    "attributes" : [ "datatype" ],
+    "id" : "59"
+  }, {
+    "iri" : "http://www.mica.org/ontology#hasEdited",
+    "inverse" : "62",
+    "baseIri" : "http://www.mica.org/ontology",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "hasEdited"
+    },
+    "domain" : "33",
+    "attributes" : [ "object" ],
+    "id" : "61"
+  }, {
+    "iri" : "http://www.mica.org/ontology#url",
+    "baseIri" : "http://www.mica.org/ontology",
+    "range" : "65",
+    "label" : {
+      "IRI-based" : "url"
+    },
+    "domain" : "64",
+    "attributes" : [ "datatype" ],
+    "id" : "63"
+  }, {
+    "iri" : "http://www.mica.org/ontology#abstract",
+    "baseIri" : "http://www.mica.org/ontology",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "abstract"
+    },
+    "domain" : "68",
+    "attributes" : [ "datatype" ],
+    "id" : "72"
+  }, {
+    "iri" : "http://www.mica.org/ontology#submittedOn",
+    "baseIri" : "http://www.mica.org/ontology",
+    "range" : "73",
+    "label" : {
+      "IRI-based" : "submittedOn"
+    },
+    "domain" : "5",
+    "attributes" : [ "datatype" ],
+    "id" : "75"
+  }, {
+    "iri" : "http://www.mica.org/ontology#relatedMethod",
+    "baseIri" : "http://www.mica.org/ontology",
+    "range" : "76",
+    "label" : {
+      "IRI-based" : "relatedMethod"
+    },
+    "domain" : "5",
+    "attributes" : [ "datatype" ],
+    "id" : "80"
+  }, {
+    "iri" : "http://owl2vowl.de#72",
+    "baseIri" : "http://owl2vowl.de",
+    "domain" : "1",
+    "range" : "20",
+    "id" : "81",
+    "label" : {
+      "IRI-based" : "72",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://www.mica.org/ontology#isSpatialDimensionOf",
+    "baseIri" : "http://www.mica.org/ontology",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "isSpatialDimensionOf"
+    },
+    "domain" : "18",
+    "attributes" : [ "object" ],
+    "id" : "82"
+  }, {
+    "iri" : "http://owl2vowl.de#71",
+    "baseIri" : "http://owl2vowl.de",
+    "domain" : "1",
+    "range" : "23",
+    "id" : "83",
+    "label" : {
+      "IRI-based" : "71",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://owl2vowl.de#74",
+    "baseIri" : "http://owl2vowl.de",
+    "domain" : "1",
+    "range" : "43",
+    "id" : "84",
+    "label" : {
+      "IRI-based" : "74",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://owl2vowl.de#73",
+    "baseIri" : "http://owl2vowl.de",
+    "domain" : "1",
+    "range" : "1",
+    "id" : "85",
+    "label" : {
+      "IRI-based" : "73",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://www.mica.org/ontology#treatment",
+    "baseIri" : "http://www.mica.org/ontology",
+    "range" : "87",
+    "label" : {
+      "IRI-based" : "treatment"
+    },
+    "domain" : "5",
+    "attributes" : [ "datatype" ],
+    "id" : "86"
+  }, {
+    "iri" : "http://www.mica.org/ontology#isRelatedTo",
+    "inverse" : "88",
+    "baseIri" : "http://www.mica.org/ontology",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "isRelatedTo"
+    },
+    "domain" : "18",
+    "subproperty" : [ "89", "90" ],
+    "attributes" : [ "symmetric", "object" ],
+    "id" : "88"
+  }, {
+    "iri" : "http://www.mica.org/ontology#isTimeDimensionOf",
+    "baseIri" : "http://www.mica.org/ontology",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "isTimeDimensionOf"
+    },
+    "domain" : "18",
+    "attributes" : [ "object" ],
+    "id" : "91"
+  }, {
+    "iri" : "http://www.mica.org/ontology#lastName",
+    "baseIri" : "http://www.mica.org/ontology",
+    "range" : "66",
+    "label" : {
+      "IRI-based" : "lastName"
+    },
+    "domain" : "33",
+    "attributes" : [ "datatype" ],
+    "id" : "92"
+  }, {
+    "iri" : "http://owl2vowl.de#70",
+    "baseIri" : "http://owl2vowl.de",
+    "domain" : "1",
+    "range" : "42",
+    "id" : "93",
+    "label" : {
+      "IRI-based" : "70",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://www.mica.org/ontology#operationalTools",
+    "baseIri" : "http://www.mica.org/ontology",
+    "range" : "55",
+    "label" : {
+      "IRI-based" : "operationalTools"
+    },
+    "domain" : "5",
+    "attributes" : [ "datatype" ],
+    "id" : "94"
+  }, {
+    "iri" : "http://owl2vowl.de#69",
+    "baseIri" : "http://owl2vowl.de",
+    "domain" : "1",
+    "range" : "28",
+    "id" : "95",
+    "label" : {
+      "IRI-based" : "69",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://owl2vowl.de#68",
+    "baseIri" : "http://owl2vowl.de",
+    "domain" : "1",
+    "range" : "41",
+    "id" : "96",
+    "label" : {
+      "IRI-based" : "68",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://owl2vowl.de#65",
+    "baseIri" : "http://owl2vowl.de",
+    "domain" : "69",
+    "range" : "74",
+    "id" : "98",
+    "label" : {
+      "IRI-based" : "65",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://owl2vowl.de#64",
+    "baseIri" : "http://owl2vowl.de",
+    "domain" : "4",
+    "range" : "4",
+    "id" : "99",
+    "label" : {
+      "IRI-based" : "64",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://owl2vowl.de#67",
+    "baseIri" : "http://owl2vowl.de",
+    "domain" : "5",
+    "range" : "5",
+    "id" : "100",
+    "label" : {
+      "IRI-based" : "67",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://www.mica.org/ontology#hasSpatialDimension",
+    "inverse" : "82",
+    "baseIri" : "http://www.mica.org/ontology",
+    "range" : "97",
+    "label" : {
+      "IRI-based" : "hasSpatialDimension"
+    },
+    "domain" : "5",
+    "attributes" : [ "object" ],
+    "id" : "101"
+  }, {
+    "iri" : "http://owl2vowl.de#66",
+    "baseIri" : "http://owl2vowl.de",
+    "domain" : "42",
+    "range" : "42",
+    "id" : "102",
+    "label" : {
+      "IRI-based" : "66",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://owl2vowl.de#61",
+    "baseIri" : "http://owl2vowl.de",
+    "domain" : "74",
+    "range" : "74",
+    "id" : "103",
+    "label" : {
+      "IRI-based" : "61",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://www.mica.org/ontology#hasDomain",
+    "inverse" : "105",
+    "baseIri" : "http://www.mica.org/ontology",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "hasDomain"
+    },
+    "domain" : "5",
+    "attributes" : [ "object" ],
+    "id" : "104"
+  }, {
+    "iri" : "http://owl2vowl.de#60",
+    "baseIri" : "http://owl2vowl.de",
+    "domain" : "33",
+    "range" : "33",
+    "id" : "106",
+    "label" : {
+      "IRI-based" : "60",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://owl2vowl.de#63",
+    "baseIri" : "http://owl2vowl.de",
+    "domain" : "23",
+    "range" : "23",
+    "id" : "107",
+    "label" : {
+      "IRI-based" : "63",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://owl2vowl.de#62",
+    "baseIri" : "http://owl2vowl.de",
+    "domain" : "0",
+    "range" : "0",
+    "id" : "108",
+    "label" : {
+      "IRI-based" : "62",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://www.mica.org/ontology#isConcernedBy",
+    "baseIri" : "http://www.mica.org/ontology",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "isConcernedBy"
+    },
+    "domain" : "18",
+    "attributes" : [ "object" ],
+    "id" : "109"
+  }, {
+    "iri" : "http://www.mica.org/ontology#requires",
+    "baseIri" : "http://www.mica.org/ontology",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "requires"
+    },
+    "domain" : "5",
+    "attributes" : [ "object" ],
+    "id" : "6"
+  }, {
+    "iri" : "http://www.mica.org/ontology#approved",
+    "baseIri" : "http://www.mica.org/ontology",
+    "range" : "79",
+    "label" : {
+      "IRI-based" : "approved"
+    },
+    "domain" : "5",
+    "attributes" : [ "datatype" ],
+    "id" : "110"
+  }, {
+    "iri" : "http://www.mica.org/ontology#hasWritten",
+    "inverse" : "112",
+    "baseIri" : "http://www.mica.org/ontology",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "hasWritten"
+    },
+    "domain" : "33",
+    "attributes" : [ "object" ],
+    "id" : "111"
+  }, {
+    "iri" : "http://owl2vowl.de#58",
+    "baseIri" : "http://owl2vowl.de",
+    "domain" : "22",
+    "range" : "22",
+    "id" : "113",
+    "label" : {
+      "IRI-based" : "58",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://owl2vowl.de#57",
+    "baseIri" : "http://owl2vowl.de",
+    "domain" : "43",
+    "range" : "43",
+    "id" : "114",
+    "label" : {
+      "IRI-based" : "57",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://www.mica.org/ontology#firstName",
+    "baseIri" : "http://www.mica.org/ontology",
+    "range" : "67",
+    "label" : {
+      "IRI-based" : "firstName"
+    },
+    "domain" : "33",
+    "attributes" : [ "datatype" ],
+    "id" : "115"
+  }, {
+    "iri" : "http://owl2vowl.de#59",
+    "baseIri" : "http://owl2vowl.de",
+    "domain" : "28",
+    "range" : "28",
+    "id" : "116",
+    "label" : {
+      "IRI-based" : "59",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://www.mica.org/ontology#systemConsidered",
+    "baseIri" : "http://www.mica.org/ontology",
+    "range" : "77",
+    "label" : {
+      "IRI-based" : "systemConsidered"
+    },
+    "domain" : "5",
+    "attributes" : [ "datatype" ],
+    "id" : "118"
+  }, {
+    "iri" : "http://owl2vowl.de#56",
+    "baseIri" : "http://owl2vowl.de",
+    "domain" : "20",
+    "range" : "20",
+    "id" : "119",
+    "label" : {
+      "IRI-based" : "56",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://owl2vowl.de#55",
+    "baseIri" : "http://owl2vowl.de",
+    "domain" : "41",
+    "range" : "41",
+    "id" : "120",
+    "label" : {
+      "IRI-based" : "55",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://www.mica.org/ontology#isReferenceOf",
+    "baseIri" : "http://www.mica.org/ontology",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "isReferenceOf"
+    },
+    "domain" : "18",
+    "attributes" : [ "transitive", "object" ],
+    "id" : "16"
+  }, {
+    "iri" : "http://www.mica.org/ontology#isDomainOf",
+    "baseIri" : "http://www.mica.org/ontology",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "isDomainOf"
+    },
+    "domain" : "18",
+    "attributes" : [ "object" ],
+    "id" : "105"
+  }, {
+    "iri" : "http://www.mica.org/ontology#references",
+    "baseIri" : "http://www.mica.org/ontology",
+    "range" : "70",
+    "label" : {
+      "IRI-based" : "references"
+    },
+    "domain" : "5",
+    "attributes" : [ "datatype" ],
+    "id" : "121"
+  }, {
+    "iri" : "http://www.mica.org/ontology#isRelatedToFactsheet",
+    "inverse" : "89",
+    "baseIri" : "http://www.mica.org/ontology",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "isRelatedToFactsheet"
+    },
+    "superproperty" : [ "88" ],
+    "domain" : "5",
+    "attributes" : [ "symmetric", "object" ],
+    "id" : "89"
+  }, {
+    "range" : "41",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "122"
+  }, {
+    "range" : "41",
+    "domain" : "20",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "123"
+  }, {
+    "range" : "23",
+    "domain" : "41",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "124"
+  }, {
+    "range" : "41",
+    "domain" : "28",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "125"
+  }, {
+    "range" : "41",
+    "domain" : "42",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "126"
+  }, {
+    "range" : "43",
+    "domain" : "42",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "127"
+  }, {
+    "range" : "43",
+    "domain" : "28",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "128"
+  }, {
+    "range" : "43",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "129"
+  }, {
+    "iri" : "http://www.mica.org/ontology#rangeOfRevelantApplications",
+    "baseIri" : "http://www.mica.org/ontology",
+    "range" : "117",
+    "label" : {
+      "IRI-based" : "rangeOfRevelantApplications"
+    },
+    "domain" : "5",
+    "attributes" : [ "datatype" ],
+    "id" : "130"
+  }, {
+    "iri" : "http://www.mica.org/ontology#isRelatedToMathematicalModel",
+    "inverse" : "90",
+    "baseIri" : "http://www.mica.org/ontology",
+    "range" : "69",
+    "label" : {
+      "IRI-based" : "isRelatedToMathematicalModel"
+    },
+    "superproperty" : [ "88" ],
+    "domain" : "69",
+    "attributes" : [ "symmetric", "object" ],
+    "id" : "90"
+  }, {
+    "range" : "43",
+    "domain" : "41",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "131"
+  }, {
+    "range" : "0",
+    "domain" : "41",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "132"
+  }, {
+    "range" : "1",
+    "domain" : "43",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "133"
+  }, {
+    "iri" : "http://www.mica.org/ontology#isEditedBy",
+    "baseIri" : "http://www.mica.org/ontology",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "isEditedBy"
+    },
+    "domain" : "18",
+    "attributes" : [ "object" ],
+    "id" : "62"
+  }, {
+    "range" : "1",
+    "domain" : "23",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "134"
+  }, {
+    "range" : "74",
+    "domain" : "69",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "135"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "136"
+  }, {
+    "range" : "1",
+    "domain" : "28",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "137"
+  }, {
+    "range" : "1",
+    "domain" : "42",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "138"
+  }, {
+    "range" : "1",
+    "domain" : "41",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "139"
+  }, {
+    "range" : "1",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "140"
+  }, {
+    "range" : "1",
+    "domain" : "20",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "141"
+  }, {
+    "iri" : "http://www.mica.org/ontology#concerns",
+    "inverse" : "109",
+    "baseIri" : "http://www.mica.org/ontology",
+    "range" : "56",
+    "label" : {
+      "IRI-based" : "concerns"
+    },
+    "domain" : "5",
+    "attributes" : [ "object" ],
+    "id" : "142"
+  }, {
+    "iri" : "http://www.mica.org/ontology#hasModel",
+    "inverse" : "17",
+    "baseIri" : "http://www.mica.org/ontology",
+    "range" : "69",
+    "label" : {
+      "IRI-based" : "hasModel"
+    },
+    "domain" : "5",
+    "attributes" : [ "object" ],
+    "id" : "143"
+  }, {
+    "iri" : "http://www.mica.org/ontology#revisionNeeded",
+    "baseIri" : "http://www.mica.org/ontology",
+    "range" : "71",
+    "label" : {
+      "IRI-based" : "revisionNeeded"
+    },
+    "domain" : "5",
+    "attributes" : [ "datatype" ],
+    "id" : "144"
+  }, {
+    "iri" : "http://www.mica.org/ontology#isWrittenBy",
+    "baseIri" : "http://www.mica.org/ontology",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "isWrittenBy"
+    },
+    "domain" : "18",
+    "attributes" : [ "object" ],
+    "id" : "112"
+  }, {
+    "iri" : "http://owl2vowl.de#76",
+    "baseIri" : "http://owl2vowl.de",
+    "domain" : "1",
+    "range" : "0",
+    "id" : "145",
+    "label" : {
+      "IRI-based" : "76",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://www.mica.org/ontology#spacetime",
+    "baseIri" : "http://www.mica.org/ontology",
+    "range" : "78",
+    "label" : {
+      "IRI-based" : "spacetime"
+    },
+    "domain" : "5",
+    "attributes" : [ "datatype" ],
+    "id" : "146"
+  }, {
+    "iri" : "http://owl2vowl.de#75",
+    "baseIri" : "http://owl2vowl.de",
+    "domain" : "1",
+    "range" : "22",
+    "id" : "147",
+    "label" : {
+      "IRI-based" : "75",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://owl2vowl.de#78",
+    "baseIri" : "http://owl2vowl.de",
+    "domain" : "13",
+    "range" : "13",
+    "id" : "148",
+    "label" : {
+      "IRI-based" : "78",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://www.mica.org/ontology#hasTimeDimension",
+    "inverse" : "91",
+    "baseIri" : "http://www.mica.org/ontology",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hasTimeDimension"
+    },
+    "domain" : "5",
+    "attributes" : [ "object" ],
+    "id" : "149"
+  }, {
+    "iri" : "http://owl2vowl.de#77",
+    "baseIri" : "http://owl2vowl.de",
+    "domain" : "56",
+    "range" : "56",
+    "id" : "150",
+    "label" : {
+      "IRI-based" : "77",
+      "undefined" : "is a"
+    }
+  } ]
+}
